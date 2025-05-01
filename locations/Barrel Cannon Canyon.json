@@ -1,0 +1,400 @@
+[
+    {
+        "name": "Barrel Cannon Canyon",
+        "access_rules": [""],
+        "visibility_rules": ["kongojungleaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Clear",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "3552",
+                    "y": "1244"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - KONG",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "shape": "diamond",
+                    "x": "442",
+                    "y": "18"
+                },
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "shape": "diamond",
+                    "x": "409",
+                    "y": "550"
+                },
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "shape": "diamond",
+                    "x": "787",
+                    "y": "704"
+                },
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "shape": "diamond",
+                    "x": "3464",
+                    "y": "872"
+                },
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "shape": "diamond",
+                    "x": "124",
+                    "y": "1048"
+                },
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "shape": "diamond",
+                    "x": "3304",
+                    "y": "1065"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "1014",
+                    "y": "887"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, carry, barrelkannons", "NORMAL, carry, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "2197",
+                    "y": "761"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Winky Token (Below ledge)",
+                "access_rules": ["EASY, duddy, roll, barrelkannons", "NORMAL, roll, diddy", "NORMAL, roll, barrelkannons, donkey"],
+                "chest_unopened_img": "images/checks/winky_disabled.png",
+                "chest_opened_img": "images/checks/winky.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Winky Token (Below ledge)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "1091",
+                    "y": "331"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Rambi Token (Near three brown Kritters)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/rambi_disabled.png",
+                "chest_opened_img": "images/checks/rambi.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Rambi Token (Near three brown Kritters)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "3392",
+                    "y": "37"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache near DK barrel)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons", "NORMAL, $slap, diddy"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #1 (Cache near DK barrel)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "716",
+                    "y": "356"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache in a corner)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons", "NORMAL, $slap, diddy, roll"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #2 (Cache in a corner)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "1867",
+                    "y": "433"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache in a palm tree above three brown Kritters)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #3 (Cache in a palm tree above three brown Kritters)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "3228",
+                    "y": "160"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Cache below three brown Kritters)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #4 (Cache below three brown Kritters)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "3260",
+                    "y": "337"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache before continue barrel)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #5 (Cache before continue barrel)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "1353",
+                    "y": "701"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (Cache in a pit after continue barrel)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #6 (Cache in a pit after continue barrel)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "1852",
+                    "y": "782"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #7 (Cache near TNT barrel)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #7 (Cache near TNT barrel)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "2233",
+                    "y": "716"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #8 (Cache near TNT barrel)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #8 (Cache near TNT barrel)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "2392",
+                    "y": "750"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #9 (Cache below a Barrel Kannon)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #9 (Cache below a Barrel Kannon)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "2953",
+                    "y": "895"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #10 (Cache in a palm tree near exit)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #10 (Cache in a palm tree near exit)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "3061",
+                    "y": "1115"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #11 (Cache in a palm tree near exit)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Barrel Cannon Canyon - Banana Bunch #11 (Cache in a palm tree near exit)",
+            "map_locations": [
+                {
+                    "map": "Barrel Cannon Canyon",
+                    "x": "3285",
+                    "y": "1115"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #12 (Cache below third blue Kritter near exit)",
+                "access_rules": ["EASY, $slap, barrelkannons", "NORMAL, $slap, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+        "name": "Barrel Cannon Canyon - Banana Bunch #12 (Cache below third blue Kritter near exit)",
+        "map_locations": [
+            {
+                "map": "Barrel Cannon Canyon",
+                "x": "3189",
+                "y": "1293"
+            }
+        ]
+    }
+]
+}
+]

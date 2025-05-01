@@ -1,0 +1,368 @@
+[
+    {
+        "name": "Orang-utan Gang",
+        "access_rules": [""],
+        "visibility_rules": ["vinevalleyaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, carry, expresso", "NORMAL"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Clear",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "3150",
+                    "y": "1245"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, carry, roll, tires", "NORMAL, carry, roll, tires"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - KONG",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "shape": "diamond",
+                    "x": "2181",
+                    "y": "282"
+                },
+                {
+                    "map": "Orang-utan Gang",
+                    "shape": "diamond",
+                    "x": "475",
+                    "y": "913"
+                },
+                {
+                    "map": "Orang-utan Gang",
+                    "shape": "diamond",
+                    "x": "3210",
+                    "y": "810"
+                },
+                {
+                    "map": "Orang-utan Gang",
+                    "shape": "diamond",
+                    "x": "2508",
+                    "y": "1378"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, expresso", "NORMAL, expresso"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "19",
+                    "y": "399"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, carry, expresso", "NORMAL, carry, expresso", "NORMAL, carry, diddy, roll"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "1288",
+                    "y": "1433"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, carry", "NORMAL, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "2200",
+                    "y": "1496"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #4",
+                "access_rules": ["EASY, carry", "NORMAL, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Bonus #4",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "2508",
+                    "y": "1400"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #5",
+                "access_rules": ["EASY, carry", "NORMAL"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Bonus #5",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "2890",
+                    "y": "1273"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Enguarde Token (Buried near tire)",
+                "access_rules": ["EASY, expresso", "NORMAL, expresso"],
+                "chest_unopened_img": "images/checks/enguarde_disabled.png",
+                "chest_opened_img": "images/checks/enguarde.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Enguarde Token (Buried near tire)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "1552",
+                    "y": "1100"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache near start)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #1 (Cache near start)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "565",
+                    "y": "97"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache at the end of ledge with a DK Barrel)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, carry"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #2 (Cache at the end of ledge with a DK Barrel)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "1358",
+                    "y": "338"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache below Expresso crate)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #3 (Cache below Expresso crate)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "445",
+                    "y": "796"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Near O)",
+                "access_rules": ["EASY, roll", "NORMAL, roll"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #4 (Near O)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "644",
+                    "y": "922"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache before N)",
+                "access_rules": ["EASY, $slap, carry", "EASY, $slap, expresso", "NORMAL, $slap, carry", "NORMAL, $slap, expresso"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #5 (Cache before N)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "2911",
+                    "y": "717"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (In path to bonus #2)",
+                "access_rules": ["EASY, expresso", "NORMAL, expresso", "NORMAL, diddy, roll"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #6 (In path to bonus #2)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "737",
+                    "y": "1423"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #7 (Cache below tire)",
+                "access_rules": ["EASY, $slap, carry", "EASY, $slap, expresso", "NORMAL, $slap, carry", "NORMAL, $slap, expresso"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #7 (Cache below tire)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "1716",
+                    "y": "1390"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #8 (In a palm tree near exit)",
+                "access_rules": ["EASY, expresso", "NORMAL"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #8 (In a palm tree near exit)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "2661",
+                    "y": "1032"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #9 (In a palm tree near exit)",
+                "access_rules": ["EASY, expresso", "NORMAL"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Orang-utan Gang - Banana Bunch #9 (In a palm tree near exit)",
+            "map_locations": [
+                {
+                    "map": "Orang-utan Gang",
+                    "x": "2680",
+                    "y": "1032"
+                }
+            ]
+        }
+        ]
+    }
+]

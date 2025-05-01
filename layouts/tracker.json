@@ -1,0 +1,71 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid_vertical"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Game Settings",
+                            "content": {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "0,0",
+                                "content": [
+                                {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 44,
+                        "item_width": 44,
+                        "rows": [
+                            ["EASY", "goal"],
+                            ["bigbananasrequired", "bigbanana"],
+                            ["kongchecks", "tokensanity"],
+                            ["balloonsanity", "bananasanity"]
+                        ]
+                        }
+                    ]
+                    }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "style": "wrap",
+                                "type": "recentpins",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": [{
+                        "type": "layout",
+                        "key": "tabbed_maps_horizontal"
+                    }]
+                }
+            ]
+        }
+    }
+}

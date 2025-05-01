@@ -1,0 +1,76 @@
+[
+    {
+      "name": "Auto Map Switch",
+      "type": "toggle",
+      "img": "images/settings/tab_switching_on.png",
+      "disabled_img": "images/settings/tab_switching_off.png",
+      "codes": "tab_switch"
+    },
+    {
+      "name": "Show All Locations",
+      "type": "toggle",
+      "img": "images/settings/visibility_checks_on.png",
+      "disabled_img": "images/settings/visibility_checks_off.png",
+      "codes": "visibility_markers"
+    },
+    {
+        "name": "KONG Checks On",
+        "type": "toggle",
+        "img": "images/settings/kongcheck.png",
+        "codes": "kongchecks"
+    },
+    {
+        "name": "Big Bananas Required",
+        "type": "consumable",
+        "img": "images/settings/bossbanana_req.png",
+        "img_mods": "",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 6,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "bigbananasrequired"
+    },
+    {
+        "name": "Balloon Checks On",
+        "type": "toggle",
+        "img": "images/settings/balloonsanity.png",
+        "codes": "balloonsanity"
+    },
+    {
+        "name": "Banana Bunch Checks On",
+        "type": "toggle",
+        "img": "images/settings/bananasanity.png",
+        "codes": "bananasanity"
+    },
+    {
+        "name": "Animal Token Checks On",
+        "type": "toggle",
+        "img": "images/settings/tokensanity.png",
+        "codes": "tokensanity"
+    },
+    {
+        "name": "Difficulty",
+        "codes": "Logic",
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "type": "progressive",
+        "stages": [
+          {
+            "img": "images/settings/easy.png",
+            "inherit_codes": "false",
+            "codes": "EASY"
+          },
+          {
+            "img": "images/settings/normal.png",
+            "inherit_codes": "false",
+            "codes": "NORMAL"
+          },
+          {
+            "img": "images/settings/hard.png",
+            "inherit_codes": "false",
+            "codes": "HARD"
+          }
+        ]
+    }
+]

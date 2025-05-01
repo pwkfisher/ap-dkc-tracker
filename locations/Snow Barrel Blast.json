@@ -1,0 +1,294 @@
+[
+    {
+        "name": "Snow Barrel Blast",
+        "access_rules": [""],
+        "visibility_rules": ["gorillaglacieraccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Clear",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "4642",
+                    "y": "1141"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - KONG",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "shape": "diamond",
+                    "x": "2836",
+                    "y": "266"
+                },
+                {
+                    "map": "Snow Barrel Blast",
+                    "shape": "diamond",
+                    "x": "1998",
+                    "y": "925"
+                },
+                {
+                    "map": "Snow Barrel Blast",
+                    "shape": "diamond",
+                    "x": "4182",
+                    "y": "762"
+                },
+                {
+                    "map": "Snow Barrel Blast",
+                    "shape": "diamond",
+                    "x": "1473",
+                    "y": "1499"
+                },
+                {
+                    "map": "Snow Barrel Blast",
+                    "shape": "diamond",
+                    "x": "2475",
+                    "y": "1265"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Red Balloon #1 (After trio of Neckys)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
+                "chest_opened_img": "images/checks/balloonsanity.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Red Balloon #1 (After trio of Neckys)",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "1119",
+                    "y": "61"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Blue Balloon (After final barrel section)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
+                "chest_opened_img": "images/checks/balloonsanity.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Blue Balloon (After final barrel section)",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "3444",
+                    "y": "1195"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "42",
+                    "y": "214"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "1998",
+                    "y": "958"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "4182",
+                    "y": "931"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Rambi Token",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/rambi_disabled.png",
+                "chest_opened_img": "images/checks/rambi.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Rambi Token",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "22",
+                    "y": "1092"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache next to barrel at start)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Banana Bunch #1 (Cache next to barrel at start)",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "580",
+                    "y": "343"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache before K)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Banana Bunch #2 (Cache before K)",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "2717",
+                    "y": "375"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache next to DK Barrel near bonus #3)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Banana Bunch #3 (Cache next to DK Barrel near bonus #3)",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "4306",
+                    "y": "980"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Near shortcut exit)",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Banana Bunch #4 (Near shortcut exit)",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "3723",
+                    "y": "1230"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache near exit)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Snow Barrel Blast - Banana Bunch #5 (Cache near exit)",
+            "map_locations": [
+                {
+                    "map": "Snow Barrel Blast",
+                    "x": "4306",
+                    "y": "1299"
+                }
+            ]
+        }
+        ]
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "name": "Winky's Walkway",
+        "access_rules": [""],
+        "visibility_rules": ["monkeyminesaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - Clear",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "x": "2502",
+                    "y": "694"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - KONG",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "shape": "diamond",
+                    "x": "477",
+                    "y": "219"
+                },
+                {
+                    "map": "Winky's Walkway",
+                    "shape": "diamond",
+                    "x": "1694",
+                    "y": "153"
+                },
+                {
+                    "map": "Winky's Walkway",
+                    "shape": "diamond",
+                    "x": "147",
+                    "y": "537"
+                },
+                {
+                    "map": "Winky's Walkway",
+                    "shape": "diamond",
+                    "x": "1554",
+                    "y": "794"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "x": "147",
+                    "y": "562"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Expresso Token",
+                "access_rules": ["EASY, winky", "NORMAL, winky"],
+                "chest_unopened_img": "images/checks/expresso_disabled.png",
+                "chest_opened_img": "images/checks/expresso.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - Expresso Token",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "x": "1187",
+                    "y": "750"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache in slope near start)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - Banana Bunch #1 (Cache in slope near start)",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "x": "224",
+                    "y": "387"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache below Winky crate)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - Banana Bunch #2 (Cache below Winky crate)",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "x": "1357",
+                    "y": "336"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache below continue barrel)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - Banana Bunch #3 (Cache below continue barrel)",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "x": "1949",
+                    "y": "294"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Cache in platform near Expresso token)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - Banana Bunch #4 (Cache in platform near Expresso token)",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "x": "898",
+                    "y": "883"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache after final Mini-Drum)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Winky's Walkway - Banana Bunch #5 (Cache after final Mini-Drum)",
+            "map_locations": [
+                {
+                    "map": "Winky's Walkway",
+                    "x": "2010",
+                    "y": "871"
+                }
+            ]
+        }
+    ]
+    }
+]

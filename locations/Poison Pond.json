@@ -1,0 +1,228 @@
+[
+    {
+        "name": "Poison Pond",
+        "access_rules": [""],
+        "visibility_rules": ["kremkrocindustriesinc.access", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Clear",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "3786",
+                    "y": "237"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - KONG",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "shape": "diamond",
+                    "x": "356",
+                    "y": "1149"
+                },
+                {
+                    "map": "Poison Pond",
+                    "shape": "diamond",
+                    "x": "131",
+                    "y": "276"
+                },
+                {
+                    "map": "Poison Pond",
+                    "shape": "diamond",
+                    "x": "3538",
+                    "y": "492"
+                },
+                {
+                    "map": "Poison Pond",
+                    "shape": "diamond",
+                    "x": "3116",
+                    "y": "224"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Rambi Token",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/rambi_disabled.png",
+                "chest_opened_img": "images/checks/rambi.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Rambi Token",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "3955",
+                    "y": "151"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Expresso Token",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/expresso_disabled.png",
+                "chest_opened_img": "images/checks/expresso.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Expresso Token",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "2461",
+                    "y": "544"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Behind first Chomps Jr.)",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Banana Bunch #1 (Behind first Chomps Jr.)",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "1240",
+                    "y": "1430"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Behind second Chomps Jr.)",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Banana Bunch #2 (Behind second Chomps Jr.)",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "471",
+                    "y": "920"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Behind Mincer in a corner)",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Banana Bunch #3 (Behind Mincer in a corner)",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "1966",
+                    "y": "1080"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Below Mincer after continue barrel)",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Banana Bunch #4 (Below Mincer after continue barrel)",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "1104",
+                    "y": "118"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Above Mincer after continue barrel)",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Banana Bunch #5 (Above Mincer after continue barrel)",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "3378",
+                    "y": "1264"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (In a corner near three Mincers)",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim, enguarde", "NORMAL, swim, donkey, diddy"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Poison Pond - Banana Bunch #6 (In a corner near three Mincers)",
+            "map_locations": [
+                {
+                    "map": "Poison Pond",
+                    "x": "3125",
+                    "y": "1158"
+                }
+            ]
+        }
+        ]
+    }
+]

@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Rambi",
+        "type": "toggle",
+        "img": "images/items/rambi.png",
+        "img_mods": "",
+        "codes": "rambi"
+    },
+    {
+        "name": "Barrel Cannons",
+        "type": "toggle",
+        "img": "images/items/barrelkannons.png",
+        "img_mods": "",
+        "codes": "barrelkannons"
+    },
+    {
+        "name": "Diddy",
+        "type": "toggle",
+        "img": "images/items/diddy.png",
+        "img_mods": "",
+        "codes": "diddy"
+    },
+    {
+        "name": "Minecart",
+        "type": "toggle",
+        "img": "images/items/minecart.png",
+        "img_mods": "",
+        "codes": "minecart"
+    },
+    {
+        "name": "Platforms",
+        "type": "toggle",
+        "img": "images/items/platform.png",
+        "img_mods": "",
+        "codes": "platforms"
+    },
+    {
+        "name": "Swim",
+        "type": "toggle",
+        "img": "images/items/swim.png",
+        "img_mods": "",
+        "codes": "swim"
+    },
+    {
+        "name": "Carry",
+        "type": "toggle",
+        "img": "images/items/carry.png",
+        "img_mods": "",
+        "codes": "carry"
+    },
+    {
+        "name": "Climb",
+        "type": "toggle",
+        "img": "images/items/climb.png",
+        "img_mods": "",
+        "codes": "climb"
+    },
+    {
+        "name": "Tires",
+        "type": "toggle",
+        "img": "images/items/tires.png",
+        "img_mods": "",
+        "codes": "tires"
+    },
+    {
+        "name": "Donkey",
+        "type": "toggle",
+        "img": "images/items/donkey.png",
+        "img_mods": "",
+        "codes": "donkey"
+    },
+    {
+        "name": "Kongo Jungle Access",
+        "type": "toggle",
+        "img": "images/checks/world1access.png",
+        "img_mods": "",
+        "codes": "kongojungleaccess"
+    },
+    {
+        "name": "Monkey Mines Access",
+        "type": "toggle",
+        "img": "images/checks/world2access.png",
+        "img_mods": "",
+        "codes": "monkeyminesaccess"
+    },
+    {
+        "name": "Vine Valley Access",
+        "type": "toggle",
+        "img": "images/checks/world3access.png",
+        "img_mods": "",
+        "codes": "vinevalleyaccess"
+    },
+    {
+        "name": "Gorilla Glacier Access",
+        "type": "toggle",
+        "img": "images/checks/world4access.png",
+        "img_mods": "",
+        "codes": "gorillaglacieraccess"
+    },
+    {
+        "name": "Kremkroc Industries Inc. Access",
+        "type": "toggle",
+        "img": "images/checks/world5access.png",
+        "img_mods": "",
+        "codes": "kremkrocindustriesinc.access"
+    },
+    {
+        "name": "Chimp Caverns Access",
+        "type": "toggle",
+        "img": "images/checks/world6access.png",
+        "img_mods": "",
+        "codes": "chimpcavernsaccess"
+    },
+    {
+        "name": "Expresso",
+        "type": "toggle",
+        "img": "images/items/expresso.png",
+        "img_mods": "",
+        "codes": "expresso"
+    },
+    {
+        "name": "Winky",
+        "type": "toggle",
+        "img": "images/items/winky.png",
+        "img_mods": "",
+        "codes": "winky"
+    },
+    {
+        "name": "Enguarde",
+        "type": "toggle",
+        "img": "images/items/enguarde.png",
+        "img_mods": "",
+        "codes": "enguarde"
+    },
+    {
+        "name": "Big Banana",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 6,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "img": "images/checks/bossbanana.png",
+        "img_mods": "",
+        "codes": "bigbanana"
+    },
+    {
+        "name": "Roll",
+        "type": "toggle",
+        "img": "images/items/roll.png",
+        "img_mods": "",
+        "codes": "roll"
+    },
+    {
+        "name": "Squawks",
+        "type": "toggle",
+        "img": "images/items/squawks.png",
+        "img_mods": "",
+        "codes": "squawks"
+    },
+    {
+        "name": "Switch Barrels",
+        "type": "toggle",
+        "img": "images/items/switchbarrels.png",
+        "img_disabled": "images/items/switchbarrels_disabled.png",
+        "codes": "switchbarrels"
+    },
+    {
+        "name": "Gorilla Slap",
+        "type": "toggle",
+        "img": "images/items/gorillaslap.png",
+        "img_mods": "",
+        "codes": "gorillaslap"
+    }
+]

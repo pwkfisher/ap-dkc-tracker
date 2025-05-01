@@ -1,0 +1,149 @@
+[
+    {
+        "name": "Coral Capers",
+        "access_rules": [""],
+        "visibility_rules": ["kongojungleaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Coral Capers - Clear",
+            "map_locations": [
+                {
+                    "map": "Coral Capers",
+                    "x": "2022",
+                    "y": "173"
+                }
+            ]
+
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Coral Capers - KONG",
+            "map_locations": [
+                {
+                    "map": "Coral Capers",
+                    "shape": "diamond",
+                    "x": "1040",
+                    "y": "1191"
+                },
+                {
+                    "map": "Coral Capers",
+                    "shape": "diamond",
+                    "x": "765",
+                    "y": "639"
+                },
+                {
+                    "map": "Coral Capers",
+                    "shape": "diamond",
+                    "x": "142",
+                    "y": "39"
+                },
+                {
+                    "map": "Coral Capers",
+                    "shape": "diamond",
+                    "x": "1632",
+                    "y": "231"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Red Balloon #1 (In second Croctopus' path)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
+                "chest_opened_img": "images/checks/balloonsanity.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Coral Capers - Red Balloon #1 (In second Croctopus' path)",
+            "map_locations": [
+                {
+                    "map": "Coral Capers",
+                    "x": "1967",
+                    "y": "792"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Expresso Token (In secret area near two Chomps)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/expresso_disabled.png",
+                "chest_opened_img": "images/checks/expresso.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Coral Capers - Expresso Token (In secret area near two Chomps)",
+            "map_locations": [
+                {
+                    "map": "Coral Capers",
+                    "x": "333",
+                    "y": "798"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Below first Croctopus)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Coral Capers - Banana Bunch #1 (Below first Croctopus)",
+            "map_locations": [
+                {
+                    "map": "Coral Capers",
+                    "x": "1474",
+                    "y": "1588"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Next to O)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+        "name": "Coral Capers - Banana Bunch #2 (Next to O)",
+        "map_locations": [
+            {
+                "map": "Coral Capers",
+                "x": "637",
+                "y": "637"
+            }
+        ]
+    }
+]
+}
+]

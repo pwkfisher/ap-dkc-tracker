@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Clam City",
+        "access_rules": [""],
+        "visibility_rules": ["vinevalleyaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Clam City - Clear",
+            "map_locations": [
+                {
+                    "map": "Clam City",
+                    "x": "2023",
+                    "y": "109"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Clam City - KONG",
+            "map_locations": [
+                {
+                    "map": "Clam City",
+                    "shape": "diamond",
+                    "x": "221",
+                    "y": "1051"
+                },
+                {
+                    "map": "Clam City",
+                    "shape": "diamond",
+                    "x": "1293",
+                    "y": "1364"
+                },
+                {
+                    "map": "Clam City",
+                    "shape": "diamond",
+                    "x": "148",
+                    "y": "68"
+                },
+                {
+                    "map": "Clam City",
+                    "shape": "diamond",
+                    "x": "1821",
+                    "y": "247"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Winky Token",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/winky_disabled.png",
+                "chest_opened_img": "images/checks/winky.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Clam City - Winky Token",
+            "map_locations": [
+                {
+                    "map": "Clam City",
+                    "x": "717",
+                    "y": "310"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Near start)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Clam City - Banana Bunch #1 (Near start)",
+            "map_locations": [
+                {
+                    "map": "Clam City",
+                    "x": "395",
+                    "y": "1499"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (In a corner before a vertical section)",
+                "access_rules": ["EASY, swim, enguarde", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Clam City - Banana Bunch #2 (In a corner before a vertical section)",
+            "map_locations": [
+                {
+                    "map": "Clam City",
+                    "x": "1906",
+                    "y": "1548"
+                }
+            ]
+        }
+        ]
+    }
+]

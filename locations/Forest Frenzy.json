@@ -1,0 +1,228 @@
+[
+    {
+        "name": "Forest Frenzy",
+        "access_rules": [""],
+        "visibility_rules": ["vinevalleyaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Clear",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "3476",
+                    "y": "1370"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, climb, roll", "NORMAL, climb, roll"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - KONG",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "shape": "diamond",
+                    "x": "1181",
+                    "y": "348"
+                },
+                {
+                    "map": "Forest Frenzy",
+                    "shape": "diamond",
+                    "x": "2265",
+                    "y": "245"
+                },
+                {
+                    "map": "Forest Frenzy",
+                    "shape": "diamond",
+                    "x": "2808",
+                    "y": "860"
+                },
+                {
+                    "map": "Forest Frenzy",
+                    "shape": "diamond",
+                    "x": "873",
+                    "y": "1371"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Red Balloon #1 (In the middle of a fast Zinger)",
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
+                "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
+                "chest_opened_img": "images/checks/balloonsanity.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Red Balloon #1 (In the middle of a fast Zinger)",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "1137",
+                    "y": "1307"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "1868",
+                    "y": "1447"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "3161",
+                    "y": "1379"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache below DK Barrel)",
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap", "NORMAL, diddy, roll, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Banana Bunch #1 (Cache below DK Barrel)",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "917",
+                    "y": "365"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache below two Kritters)",
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Banana Bunch #2 (Cache below two Kritters)",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "1997",
+                    "y": "308"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache in corner next to two Kritters)",
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Banana Bunch #3 (Cache in corner next to two Kritters)",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "2453",
+                    "y": "371"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Cache in edge below Kritter)",
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Banana Bunch #4 (Cache in edge below Kritter)",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "2291",
+                    "y": "853"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache below arrow sign)",
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Forest Frenzy - Banana Bunch #5 (Cache below arrow sign)",
+            "map_locations": [
+                {
+                    "map": "Forest Frenzy",
+                    "x": "2826",
+                    "y": "1207"
+                }
+            ]
+        }
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Necky's Revenge",
+        "access_rules": [""],
+        "visibility_rules": ["chimpcavernsaccess", "visibility_markers"],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, diddy, donkey, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Master Necky Snr.",
+                "access_rules": ["EASY, diddy, donkey, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/bossbanana_disabled.png",
+                "chest_opened_img": "images/checks/bossbanana.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Necky's Revenge",
+                "x": "238",
+                "y": "65",
+                "size": 10
+            }
+        ]
+    }
+]
+
+

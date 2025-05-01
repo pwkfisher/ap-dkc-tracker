@@ -1,0 +1,328 @@
+[
+    {
+        "name": "Slipslide Ride",
+        "access_rules": [""],
+        "visibility_rules": ["gorillaglacieraccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Clear",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "2779",
+                    "y": "181"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, climb, barrelkannons, carry", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - KONG",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "shape": "diamond",
+                    "x": "1374",
+                    "y": "763"
+                },
+                {
+                    "map": "Slipslide Ride",
+                    "shape": "diamond",
+                    "x": "2111",
+                    "y": "1184"
+                },
+                {
+                    "map": "Slipslide Ride",
+                    "shape": "diamond",
+                    "x": "3970",
+                    "y": "832"
+                },
+                {
+                    "map": "Slipslide Ride",
+                    "shape": "diamond",
+                    "x": "2461",
+                    "y": "19"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "36",
+                    "y": "868"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "1508",
+                    "y": "1381"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "3056",
+                    "y": "938"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Enguarde Token (Buried below O)",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/enguarde_disabled.png",
+                "chest_opened_img": "images/checks/enguarde.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Enguarde Token (Buried below O)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "272",
+                    "y": "12"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Above Necky)",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #1 (Above Necky)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "1506",
+                    "y": "105"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache near Army)",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #2 (Cache near Army)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "1206",
+                    "y": "466"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Above O)",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #3 (Above O)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "2113",
+                    "y": "1152"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Below O)",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #4 (Below O)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "2113",
+                    "y": "1221"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Above Zinger in purple rope)",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #5 (Above Zinger in purple rope)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "3451",
+                    "y": "1253"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (Next to N)",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #6 (Next to N)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "3946",
+                    "y": "832"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #7 (Next to N)",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #7 (Next to N)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "4003",
+                    "y": "832"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #8 (Cache before set of purple ropes)",
+                "access_rules": ["EASY, climb, barrelkannons, $slap", "NORMAL, climb, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #8 (Cache before set of purple ropes)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "3272",
+                    "y": "464"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #9 (Cache next to arrow sign)",
+                "access_rules": ["EASY, climb, barrelkannons, $slap", "NORMAL, climb, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Slipslide Ride - Banana Bunch #9 (Cache next to arrow sign)",
+            "map_locations": [
+                {
+                    "map": "Slipslide Ride",
+                    "x": "2312",
+                    "y": "687"
+                }
+            ]
+        }
+        ]
+    }
+]

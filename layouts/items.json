@@ -1,0 +1,58 @@
+{
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 44,
+                        "item_width": 44,
+                        "rows": [
+                            [
+                                "donkey",
+                                "swim",
+                                "roll",
+                                "gorillaslap",
+                                "carry",
+                                "climb"
+                            ],
+                            [
+                                "diddy",
+                                "barrelkannons",
+                                "switchbarrels",
+                                "minecart",
+                                "platforms",
+                                "tires"
+                            ],
+                            [
+                                "rambi",
+                                "enguarde",
+                                "expresso",
+                                "winky",
+                                "squawks"
+                            ],
+                            [
+                                "kongojungleaccess",
+                                "monkeyminesaccess",
+                                "vinevalleyaccess",
+                                "gorillaglacieraccess",
+                                "kremkrocindustriesinc.access",
+                                "chimpcavernsaccess"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

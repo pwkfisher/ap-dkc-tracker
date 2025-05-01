@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Elevator Antics",
+        "access_rules": [""],
+        "visibility_rules": ["kremkrocindustriesinc.access", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, climb, tires", "NORMAL, climb, tires"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Elevator Antics - Clear",
+            "map_locations": [
+                {
+                    "map": "Elevator Antics",
+                    "x": "3451",
+                    "y": "1238"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Elevator Antics - KONG",
+            "map_locations": [
+                {
+                    "map": "Elevator Antics",
+                    "shape": "diamond",
+                    "x": "575",
+                    "y": "179"
+                },
+                {
+                    "map": "Elevator Antics",
+                    "shape": "diamond",
+                    "x": "2719",
+                    "y": "963"
+                },
+                {
+                    "map": "Elevator Antics",
+                    "shape": "diamond",
+                    "x": "3472",
+                    "y": "3"
+                },
+                {
+                    "map": "Elevator Antics",
+                    "shape": "diamond",
+                    "x": "2183",
+                    "y": "1109"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, climb, roll", "NORMAL, climb, roll"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Elevator Antics - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Elevator Antics",
+                    "x": "369",
+                    "y": "55"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Elevator Antics - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Elevator Antics",
+                    "x": "3472",
+                    "y": "22"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, climb, tires", "NORMAL, climb, tires"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Elevator Antics - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Elevator Antics",
+                    "x": "3355",
+                    "y": "1493"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Next to Drum spawning Slippas)",
+                "access_rules": [],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Elevator Antics - Banana Bunch #1 (Next to Drum spawning Slippas)",
+            "map_locations": [
+                {
+                    "map": "Elevator Antics",
+                    "x": "1720",
+                    "y": "448"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (At the end of a long rope)",
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Elevator Antics - Banana Bunch #2 (At the end of a long rope)",
+            "map_locations": [
+                {
+                    "map": "Elevator Antics",
+                    "x": "629",
+                    "y": "982"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Bottom of the pit after continue barrel)",
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Elevator Antics - Banana Bunch #3 (Bottom of the pit after continue barrel)",
+            "map_locations": [
+                {
+                    "map": "Elevator Antics",
+                    "x": "2132",
+                    "y": "991"
+                }
+            ]
+        }
+        ]
+    }
+]

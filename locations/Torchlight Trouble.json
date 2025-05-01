@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Torchlight Trouble",
+        "access_rules": [""],
+        "visibility_rules": ["gorillaglacieraccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, donkey, squawks", "NORMAL"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Torchlight Trouble - Clear",
+            "map_locations": [
+                {
+                    "map": "Torchlight Trouble",
+                    "x": "2643",
+                    "y": "735"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, donkey, squawks, carry, roll, tires", "NORMAL, carry, roll"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Torchlight Trouble - KONG",
+            "map_locations": [
+                {
+                    "map": "Torchlight Trouble",
+                    "shape": "diamond",
+                    "x": "484",
+                    "y": "266"
+                },
+                {
+                    "map": "Torchlight Trouble",
+                    "shape": "diamond",
+                    "x": "1101",
+                    "y": "167"
+                },
+                {
+                    "map": "Torchlight Trouble",
+                    "shape": "diamond",
+                    "x": "1797",
+                    "y": "626"
+                },
+                {
+                    "map": "Torchlight Trouble",
+                    "shape": "diamond",
+                    "x": "2382",
+                    "y": "720"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, donkey, squawks, carry", "NORMAL, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Torchlight Trouble - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Torchlight Trouble",
+                    "x": "46",
+                    "y": "677"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, donkey, squawks, carry", "NORMAL, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Torchlight Trouble - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Torchlight Trouble",
+                    "x": "2382",
+                    "y": "745"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Below Exit sign)",
+                "access_rules": ["EASY, donkey, squawks, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Torchlight Trouble - Banana Bunch #1 (Below Exit sign)",
+            "map_locations": [
+                {
+                    "map": "Torchlight Trouble",
+                    "x": "2566",
+                    "y": "764"
+                }
+            ]
+        }
+        ]
+    }
+]

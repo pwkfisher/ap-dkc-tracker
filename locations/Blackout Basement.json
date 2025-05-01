@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Blackout Basement",
+        "access_rules": [""],
+        "visibility_rules": ["kremkrocindustriesinc.access", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, climb, tires, platforms", "NORMAL, climb, tires, platforms"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Blackout Basement - Clear",
+            "map_locations": [
+                {
+                    "map": "Blackout Basement",
+                    "x": "3471",
+                    "y": "1365"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, climb, tires, platforms, barrelkannons", "NORMAL, climb, tires, platforms, barrelkannons"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Blackout Basement - KONG",
+            "map_locations": [
+                {
+                    "map": "Blackout Basement",
+                    "shape": "diamond",
+                    "x": "1389",
+                    "y": "204"
+                },
+                {
+                    "map": "Blackout Basement",
+                    "shape": "diamond",
+                    "x": "736",
+                    "y": "847"
+                },
+                {
+                    "map": "Blackout Basement",
+                    "shape": "diamond",
+                    "x": "1635",
+                    "y": "1481"
+                },
+                {
+                    "map": "Blackout Basement",
+                    "shape": "diamond",
+                    "x": "2954",
+                    "y": "1181"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, climb, tires, platforms, barrelkannons", "NORMAL, climb, tires, platforms, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Blackout Basement - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Blackout Basement",
+                    "x": "1635",
+                    "y": "1516"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, climb, tires, platforms, carry, barrelkannons", "NORMAL, climb, tires, platforms, carry, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Blackout Basement - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Blackout Basement",
+                    "x": "3109",
+                    "y": "1398"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Enguarde Token",
+                "access_rules": ["EASY, roll", "NORMAL, roll"],
+                "chest_unopened_img": "images/checks/enguarde_disabled.png",
+                "chest_opened_img": "images/checks/enguarde.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Blackout Basement - Enguarde Token",
+            "map_locations": [
+                {
+                    "map": "Blackout Basement",
+                    "x": "2413",
+                    "y": "415"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Below arrow platform)",
+                "access_rules": ["EASY, climb, tires, platforms", "NORMAL, climb, tires, platforms"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Blackout Basement - Banana Bunch #1 (Below arrow platform)",
+            "map_locations": [
+                {
+                    "map": "Blackout Basement",
+                    "x": "710",
+                    "y": "1479"
+                }
+            ]
+        }
+        ]
+    }
+]

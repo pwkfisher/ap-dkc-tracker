@@ -1,0 +1,242 @@
+[
+    {
+        "name": "World Map",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/world_map.png"
+    },
+    {
+        "name": "Barrel Cannon Canyon",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kj/barrelcannoncanyon.png"
+    },
+    {
+        "name": "Blackout Basement",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kii/blackoutbasement.png"
+    },
+    {
+        "name": "Boss Dumb Drum",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kii/bossdumbdrum.png"
+    },
+    {
+        "name": "Bouncy Bonanza",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mm/bouncybonanza.png"
+    },
+    {
+        "name": "Bumble B Rumble",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/vv/bumblebrumble.png"
+    },
+    {
+        "name": "Clam City",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/vv/clamcity.png"
+    },
+    {
+        "name": "Coral Capers",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kj/coralcapers.png"
+    },
+    {
+        "name": "Croctopus Chase",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/gg/croctopuschase.png"
+    },
+    {
+        "name": "Elevator Antics",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kii/elevatorantics.png"
+    },
+    {
+        "name": "Forest Frenzy",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/vv/forestfrenzy.png"
+    },
+    {
+        "name": "Ice Age Alley",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/gg/iceagealley.png"
+    },
+    {
+        "name": "Jungle Hijinxs",
+        "location_size": 20,
+        "location_border_thickness": 1,
+        "img": "images/maps/kj/junglehijinxs.png"
+    },
+    {
+        "name": "Loopy Lights",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/loopylights.png"
+    },
+    {
+        "name": "Manic Mincers",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/manicmincers.png"
+    },
+    {
+        "name": "Millstone Mayhem",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mm/millstonemayhem.png"
+    },
+    {
+        "name": "Mine Cart Carnage",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mm/minecartcarnage.png"
+    },
+    {
+        "name": "Mine Cart Madness",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kii/minecartmadness.png"
+    },
+    {
+        "name": "Misty Mine",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/mistymine.png"
+    },
+    {
+        "name": "Necky's Nuts",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mm/neckysnuts.png"
+    },
+    {
+        "name": "Necky's Revenge",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/neckysrevenge.png"
+    },
+    {
+        "name": "Oil Drum Alley",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kii/oildrumalley.png"
+    },
+    {
+        "name": "Orang-utan Gang",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/vv/orangutangang.png"
+    },
+    {
+        "name": "Platform Perils",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/platformperils.png"
+    },
+    {
+        "name": "Poison Pond",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kii/poisonpond.png"
+    },
+    {
+        "name": "Really Gnawty Rampage",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/gg/reallygnawtyrampage.png"
+    },
+    {
+        "name": "Reptile Rumble",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kj/reptilerumble.png"
+    },
+    {
+        "name": "Rope Bridge Rumble",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/gg/ropebridgerumble.png"
+    },
+    {
+        "name": "Ropey Rampage",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kj/ropeyrampage.png"
+    },
+    {
+        "name": "Slipslide Ride",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/gg/slipslideride.png"
+    },
+    {
+        "name": "Snow Barrel Blast",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/gg/snowbarrelblast.png"
+    },
+    {
+        "name": "Stop & Go Station",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mm/stopgostation.png"
+    },
+    {
+        "name": "Tanked Up Trouble",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/cc/tankeduptrouble.png"
+    },
+    {
+        "name": "Temple Tempest",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/vv/templetempest.png"
+    },
+    {
+        "name": "Torchlight Trouble",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/gg/torchlighttrouble.png"
+    },
+    {
+        "name": "Tree Top Town",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/vv/treetoptown.png"
+    },
+    {
+        "name": "Trick Track Trek",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kii/tricktracktrek.png"
+    },
+    {
+        "name": "Very Gnawty's Lair",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/kj/verygnawtyslair.png"
+    },
+    {
+        "name": "Vulture Culture",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/vv/vultureculture.png"
+    },
+    {
+        "name": "Winky's Walkway",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/mm/winkyswalkway.png"
+    }
+]

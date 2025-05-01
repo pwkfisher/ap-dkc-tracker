@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Boss Dumb Drum",
+        "access_rules": [""],
+        "visibility_rules": ["kremkrocindustriesinc.access", "visibility_markers"],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, donkey, diddy", "NORMAL, diddy, roll", "NORMAL, donkey"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Dumb Drum",
+                "access_rules": ["EASY, donkey, diddy", "NORMAL, diddy, roll", "NORMAL, donkey"],
+                "chest_unopened_img": "images/checks/bossbanana_disabled.png",
+                "chest_opened_img": "images/checks/bossbanana.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Boss Dumb Drum - Boss",
+                "x": "71",
+                "y": "9",
+                "size": 10
+            }
+        ]
+    }
+]

@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Vulture Culture",
+        "access_rules": [""],
+        "visibility_rules": ["vinevalleyaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Clear",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "3532",
+                    "y": "1303"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, barrelkannons, tires, carry", "NORMAL, barrelkannons, tires, carry"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - KONG",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "shape": "diamond",
+                    "x": "1450",
+                    "y": "241"
+                },
+                {
+                    "map": "Vulture Culture",
+                    "shape": "diamond",
+                    "x": "3069",
+                    "y": "778"
+                },
+                {
+                    "map": "Vulture Culture",
+                    "shape": "diamond",
+                    "x": "1619",
+                    "y": "1278"
+                },
+                {
+                    "map": "Vulture Culture",
+                    "shape": "diamond",
+                    "x": "3090",
+                    "y": "1314"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, barrelkannons, tires", "NORMAL, barrelkannons, tires"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "1819",
+                    "y": "30"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, barrelkannons, carry", "EASY, barrelkannons, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "236",
+                    "y": "823"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, barrelkannons, carry", "EASY, barrelkannons, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "1615",
+                    "y": "1307"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache near DK barrel)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap", "NORMAL, diddy, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Banana Bunch #1 (Cache near DK barrel)",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "923",
+                    "y": "273"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache in a four stair set)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Banana Bunch #2 (Cache in a four stair set)",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "2459",
+                    "y": "241"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache after set of two Necky)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Banana Bunch #3 (Cache after set of two Necky)",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "2142",
+                    "y": "818"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Cache in ledge before Mini Necky)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Banana Bunch #4 (Cache in ledge before Mini Necky)",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "2654",
+                    "y": "850"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache in a corner near two Mini Necky)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Banana Bunch #5 (Cache in a corner near two Mini Necky)",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "58",
+                    "y": "1362"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (Cache below Mini Necky near exit)",
+                "access_rules": ["EASY, barrelkannons, $slap", "NORMAL, barrelkannons, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Vulture Culture - Banana Bunch #6 (Cache below Mini Necky near exit)",
+            "map_locations": [
+                {
+                    "map": "Vulture Culture",
+                    "x": "3266",
+                    "y": "1360"
+                }
+            ]
+        }
+        ]
+    }
+]

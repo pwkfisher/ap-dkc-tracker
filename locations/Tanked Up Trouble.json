@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Tanked Up Trouble",
+        "access_rules": [""],
+        "visibility_rules": ["chimpcavernsaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, tires, platforms, barrelkannons", "NORMAL, tires, platforms, barrelkannons"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Tanked Up Trouble - Clear",
+            "map_locations": [
+                {
+                    "map": "Tanked Up Trouble",
+                    "x": "4074",
+                    "y": "121"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, platforms", "NORMAL, platforms"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Tanked Up Trouble - KONG",
+            "map_locations": [
+                {
+                    "map": "Tanked Up Trouble",
+                    "shape": "diamond",
+                    "x": "1966",
+                    "y": "218"
+                },
+                {
+                    "map": "Tanked Up Trouble",
+                    "shape": "diamond",
+                    "x": "3423",
+                    "y": "283"
+                },
+                {
+                    "map": "Tanked Up Trouble",
+                    "shape": "diamond",
+                    "x": "3871",
+                    "y": "810"
+                },
+                {
+                    "map": "Tanked Up Trouble",
+                    "shape": "diamond",
+                    "x": "3198",
+                    "y": "1257"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, platforms, barrelkannons", "NORMAL, platforms, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Tanked Up Trouble - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Tanked Up Trouble",
+                    "x": "1095",
+                    "y": "423"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Enguarde Token",
+                "access_rules": ["EASY, platforms, barrelkannons", "NORMAL, platforms, barrelkannons"],
+                "chest_unopened_img": "images/checks/enguarde_disabled.png",
+                "chest_opened_img": "images/checks/enguarde.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Tanked Up Trouble - Enguarde Token",
+            "map_locations": [
+                {
+                    "map": "Tanked Up Trouble",
+                    "x": "432",
+                    "y": "637"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (After an arrow platform stair)",
+                "access_rules": ["EASY, platforms", "NORMAL, platforms"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Tanked Up Trouble - Banana Bunch #1 (After an arrow platform stair)",
+            "map_locations": [
+                {
+                    "map": "Tanked Up Trouble",
+                    "x": "3041",
+                    "y": "280"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (On an arrow platform)",
+                "access_rules": ["EASY, platforms", "NORMAL, platforms"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Tanked Up Trouble - Banana Bunch #2 (On an arrow platform)",
+            "map_locations": [
+                {
+                    "map": "Tanked Up Trouble",
+                    "x": "3639",
+                    "y": "54"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Near N)",
+                "access_rules": ["EASY, tires, platforms, barrelkannons", "NORMAL, tires, platforms, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Tanked Up Trouble - Banana Bunch #3 (Near N)",
+            "map_locations": [
+                {
+                    "map": "Tanked Up Trouble",
+                    "x": "242",
+                    "y": "1232"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (After final fuel drum)",
+                "access_rules": ["EASY, tires, platforms, barrelkannons", "NORMAL, tires, platforms, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Tanked Up Trouble - Banana Bunch #4 (After final fuel drum)",
+            "map_locations": [
+                {
+                    "map": "Tanked Up Trouble",
+                    "x": "2234",
+                    "y": "1238"
+                }
+            ]
+        }
+        ]
+    }
+]

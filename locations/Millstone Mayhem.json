@@ -1,0 +1,308 @@
+[
+    {
+        "name": "Millstone Mayhem",
+        "access_rules": [""],
+        "visibility_rules": ["monkeyminesaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, tires, roll", "EASY, tires, winky", "NORMAL, tires, roll", "NORMAL, tires, winky"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Clear",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "3694",
+                    "y": "1329"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, tires, roll, barrelkannons", "EASY, tires, winky, barrelkannons", "NORMAL, tires, roll, barrelkannons", "NORMAL, tires, winky, barrelkannons"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - KONG",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "shape": "diamond",
+                    "x": "23",
+                    "y": "194"
+                },
+                {
+                    "map": "Millstone Mayhem",
+                    "shape": "diamond",
+                    "x": "2149",
+                    "y": "202"
+                },
+                {
+                    "map": "Millstone Mayhem",
+                    "shape": "diamond",
+                    "x": "3411",
+                    "y": "736"
+                },
+                {
+                    "map": "Millstone Mayhem",
+                    "shape": "diamond",
+                    "x": "1650",
+                    "y": "1236"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "23",
+                    "y": "217"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "2482",
+                    "y": "225"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, tires, carry", "NORMAL, tires, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "75",
+                    "y": "881"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache near start in stairs)",
+                "access_rules": ["EASY, tires, $slap", "NORMAL, tires, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #1 (Cache near start in stairs)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "562",
+                    "y": "368"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache in ledge near O)",
+                "access_rules": ["EASY, tires, $slap", "NORMAL, tires, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #2 (Cache in ledge near O)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "2052",
+                    "y": "305"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache in trench with blue Kritters)",
+                "access_rules": ["EASY, tires, $slap", "NORMAL, tires, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #3 (Cache in trench with blue Kritters)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "542",
+                    "y": "942"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Cache in trench with Slippas)",
+                "access_rules": ["EASY, tires, $slap", "NORMAL, tires, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #4 (Cache in trench with Slippas)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "3189",
+                    "y": "911"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache below Necky)",
+                "access_rules": ["EASY, tires, $slap", "NORMAL, tires, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #5 (Cache below Necky)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "410",
+                    "y": "1360"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (Cache below G)",
+                "access_rules": ["EASY, tires, $slap, roll", "EASY, tires, $slap, winky", "NORMAL, tires, $slap, roll", "NORMAL, tires, $slap, winky"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #6 (Cache below G)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "1650",
+                    "y": "1327"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #7 (Above Zinger near exit)",
+                "access_rules": ["EASY, tires, $slap, roll", "EASY, tires, $slap, winky", "NORMAL, tires, $slap, roll", "NORMAL, tires, $slap, winky"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #7 (Above Zinger near exit)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "3322",
+                    "y": "1327"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #8 (Above Zinger near exit)",
+                "access_rules": ["EASY, tires, $slap, roll", "EASY, tires, $slap, winky", "NORMAL, tires, $slap, roll", "NORMAL, tires, $slap, winky"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #8 (Above Zinger near exit)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "3322",
+                    "y": "1353"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #9 (Cache near exit)",
+                "access_rules": ["EASY, tires, $slap, roll", "EASY, tires, $slap, winky", "NORMAL, tires, $slap, roll", "NORMAL, tires, $slap, winky"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Millstone Mayhem - Banana Bunch #9 (Cache near exit)",
+            "map_locations": [
+                {
+                    "map": "Millstone Mayhem",
+                    "x": "3573",
+                    "y": "1329"
+                }
+            ]
+        }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "name": "Oil Drum Alley",
+        "access_rules": [""],
+        "visibility_rules": ["kremkrocindustriesinc.access", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Oil Drum Alley - Clear",
+            "map_locations": [
+                {
+                    "map": "Oil Drum Alley",
+                    "x": "3844",
+                    "y": "1234"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, tires, roll, barrelkannons, carry", "EASY, tires, roll, barrelkannons, rambi", "NORMAL, tires, roll, barrelkannons, carry", "NORMAL, tires, roll, barrelkannons, rambi"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Oil Drum Alley - KONG",
+            "map_locations": [
+                {
+                    "map": "Oil Drum Alley",
+                    "shape": "diamond",
+                    "x": "1504",
+                    "y": "267"
+                },
+                {
+                    "map": "Oil Drum Alley",
+                    "shape": "diamond",
+                    "x": "891",
+                    "y": "631"
+                },
+                {
+                    "map": "Oil Drum Alley",
+                    "shape": "diamond",
+                    "x": "3396",
+                    "y": "854"
+                },
+                {
+                    "map": "Oil Drum Alley",
+                    "shape": "diamond",
+                    "x": "3394",
+                    "y": "1234"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, climb, carry, barrelkannons", "NORMAL, climb, carry, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Oil Drum Alley - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Oil Drum Alley",
+                    "x": "3339",
+                    "y": "1322"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, tires, carry", "NORMAL, tires, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, tires, carry", "NORMAL, tires, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Oil Drum Alley - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Oil Drum Alley",
+                    "x": "2205",
+                    "y": "181"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #4",
+                "access_rules": ["EASY, tires, carry", "NORMAL, tires, carry", "NORMAL, roll, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Oil Drum Alley - Bonus #4",
+            "map_locations": [
+                {
+                    "map": "Oil Drum Alley",
+                    "x": "3396",
+                    "y": "882"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Above oil drum near O)",
+                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Oil Drum Alley - Banana Bunch #1 (Above oil drum near O)",
+            "map_locations": [
+                {
+                    "map": "Oil Drum Alley",
+                    "x": "515",
+                    "y": "631"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Between two Manky Kong)",
+                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Oil Drum Alley - Banana Bunch #2 (Between two Manky Kong)",
+            "map_locations": [
+                {
+                    "map": "Oil Drum Alley",
+                    "x": "3680",
+                    "y": "615"
+                }
+            ]
+        }
+        ]
+    }
+]

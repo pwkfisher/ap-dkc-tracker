@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Loopy Lights",
+        "access_rules": [""],
+        "visibility_rules": ["chimpcavernsaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, switchbarrels, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Loopy Lights - Clear",
+            "map_locations": [
+                {
+                    "map": "Loopy Lights",
+                    "x": "3967",
+                    "y": "1350"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, switchbarrels, tires, barrelkannons, roll", "NORMAL, tires, barrelkannons, roll"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Loopy Lights - KONG",
+            "map_locations": [
+                {
+                    "map": "Loopy Lights",
+                    "shape": "diamond",
+                    "x": "639",
+                    "y": "452"
+                },
+                {
+                    "map": "Loopy Lights",
+                    "shape": "diamond",
+                    "x": "306",
+                    "y": "899"
+                },
+                {
+                    "map": "Loopy Lights",
+                    "shape": "diamond",
+                    "x": "3616",
+                    "y": "854"
+                },
+                {
+                    "map": "Loopy Lights",
+                    "shape": "diamond",
+                    "x": "1953",
+                    "y": "1339"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, switchbarrels, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Loopy Lights - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Loopy Lights",
+                    "x": "639",
+                    "y": "482"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, switchbarrels, tires, carry", "NORMAL, tires, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Loopy Lights - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Loopy Lights",
+                    "x": "3616",
+                    "y": "888"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Above lamp)",
+                "access_rules": ["EASY, switchbarrels, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Loopy Lights - Banana Bunch #1 (Above lamp)",
+            "map_locations": [
+                {
+                    "map": "Loopy Lights",
+                    "x": "2128",
+                    "y": "711"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache near exit)",
+                "access_rules": ["EASY, switchbarrels, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Loopy Lights - Banana Bunch #2 (Cache near exit)",
+            "map_locations": [
+                {
+                    "map": "Loopy Lights",
+                    "x": "3578",
+                    "y": "1259"
+                }
+            ]
+        }
+        ]
+    }
+]

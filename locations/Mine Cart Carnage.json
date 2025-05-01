@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Mine Cart Carnage",
+        "access_rules": [""],
+        "visibility_rules": ["monkeyminesaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, barrelkannons, minecart", "NORMAL, barrelkannons, minecart"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Carnage - Clear",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Carnage",
+                    "x": "3692",
+                    "y": "2396"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, barrelkannons, minecart", "NORMAL, barrelkannons, minecart"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Carnage - KONG",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Carnage",
+                    "shape": "diamond",
+                    "x": "2265",
+                    "y": "185"
+                },
+                {
+                    "map": "Mine Cart Carnage",
+                    "shape": "diamond",
+                    "x": "1762",
+                    "y": "790"
+                },
+                {
+                    "map": "Mine Cart Carnage",
+                    "shape": "diamond",
+                    "x": "2500",
+                    "y": "1342"
+                },
+                {
+                    "map": "Mine Cart Carnage",
+                    "shape": "diamond",
+                    "x": "2468",
+                    "y": "1716"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Red Balloon #1 (In minecart section)",
+                "access_rules": ["EASY, barrelkannons, minecart", "NORMAL, barrelkannons, minecart"],
+                "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
+                "chest_opened_img": "images/checks/balloonsanity.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Carnage - Red Balloon #1 (In minecart section)",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Carnage",
+                    "x": "3455",
+                    "y": "1415"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Enguarde Token",
+                "access_rules": ["EASY, barrelkannons, minecart", "NORMAL, barrelkannons, minecart"],
+                "chest_unopened_img": "images/checks/enguarde_disabled.png",
+                "chest_opened_img": "images/checks/enguarde.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Carnage - Enguarde Token",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Carnage",
+                    "x": "3180",
+                    "y": "729"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache at the start)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Carnage - Banana Bunch #1 (Cache at the start)",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Carnage",
+                    "x": "46",
+                    "y": "272"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (In minecart section)",
+                "access_rules": ["EASY, barrelkannons, minecart", "NORMAL, barrelkannons, minecart"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Carnage - Banana Bunch #2 (In minecart section)",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Carnage",
+                    "x": "2251",
+                    "y": "743"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (In minecart section)",
+                "access_rules": ["EASY, barrelkannons, minecart", "NORMAL, barrelkannons, minecart"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Carnage - Banana Bunch #3 (In minecart section)",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Carnage",
+                    "x": "3110",
+                    "y": "1287"
+                }
+            ]
+        }
+        ]
+    }
+]

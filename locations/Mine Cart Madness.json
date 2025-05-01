@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Mine Cart Madness",
+        "access_rules": [""],
+        "visibility_rules": ["kremkrocindustriesinc.access", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, minecart, tires", "NORMAL, minecart, tires"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Madness - Clear",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Madness",
+                    "x": "3684",
+                    "y": "1818"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, minecart, tires", "NORMAL, minecart, tires"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Madness - KONG",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Madness",
+                    "shape": "diamond",
+                    "x": "2499",
+                    "y": "210"
+                },
+                {
+                    "map": "Mine Cart Madness",
+                    "shape": "diamond",
+                    "x": "972",
+                    "y": "619"
+                },
+                {
+                    "map": "Mine Cart Madness",
+                    "shape": "diamond",
+                    "x": "773",
+                    "y": "1416"
+                },
+                {
+                    "map": "Mine Cart Madness",
+                    "shape": "diamond",
+                    "x": "2784",
+                    "y": "1087"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, minecart, tires, barrelkannons", "NORMAL, minecart, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Madness - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Madness",
+                    "x": "3343",
+                    "y": "32"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, minecart, tires, barrelkannons", "NORMAL, minecart, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Madness - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Madness",
+                    "x": "1295",
+                    "y": "1105"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, minecart, tires, barrelkannons", "NORMAL, minecart, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Madness - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Madness",
+                    "x": "2873",
+                    "y": "1680"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Enguarde Token",
+                "access_rules": ["EASY, minecart", "NORMAL, minecart"],
+                "chest_unopened_img": "images/checks/enguarde_disabled.png",
+                "chest_opened_img": "images/checks/enguarde.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Madness - Enguarde Token",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Madness",
+                    "x": "1601",
+                    "y": "794"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (In minecart section)",
+                "access_rules": ["EASY, minecart, tires", "NORMAL, minecart, tires"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Mine Cart Madness - Banana Bunch #1 (In minecart section)",
+            "map_locations": [
+                {
+                    "map": "Mine Cart Madness",
+                    "x": "2017",
+                    "y": "1730"
+                }
+            ]
+        }
+        ]
+    }
+]

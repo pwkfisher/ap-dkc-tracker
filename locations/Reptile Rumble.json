@@ -1,0 +1,428 @@
+[
+    {
+        "name": "Reptile Rumble",
+        "access_rules": [""],
+        "visibility_rules": ["kongojungleaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, tires", "NORMAL, tires", "NORMAL, diddy"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1 
+            }
+            ],
+                "name": "Reptile Rumble - Clear",
+                "map_locations": [
+                    {
+                        "map": "Reptile Rumble",
+                        "x": "3280",
+                        "y": "621"
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                "name": "KONG",
+                "access_rules": ["EASY, tires", "NORMAL, tires", "NORMAL, diddy"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - KONG",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "shape": "diamond",
+                    "x": "1089",
+                    "y": "289"
+                },
+                {
+                    "map": "Reptile Rumble",
+                    "shape": "diamond",
+                    "x": "3124",
+                    "y": "235"
+                },
+                {
+                    "map": "Reptile Rumble",
+                    "shape": "diamond",
+                    "x": "621",
+                    "y": "759"
+                },
+                {
+                    "map": "Reptile Rumble",
+                    "shape": "diamond",
+                    "x": "2859",
+                    "y": "587"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, carry", "NORMAL, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "1132",
+                    "y": "345"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, barrelkannons, tires", "NORMAL, barrelkannons, tires", "NORMAL, barrelkannons, diddy"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "1949",
+                    "y": "73"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, carry, tires", "NORMAL, barrelkannons, tires"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "1293",
+                    "y": "870"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Enguarde Token (Between two Kritters)",
+                "access_rules": ["EASY, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/enguarde_disabled.png",
+                "chest_opened_img": "images/checks/enguarde.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Enguarde Token (Between two Kritters)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "1825",
+                    "y": "572"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache near start)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #1 (Cache near start)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "301",
+                    "y": "242"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache before K)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #2 (Cache before K)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "988",
+                    "y": "386"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache ???)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #3 (Cache ???)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "1667",
+                    "y": "336"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Cache next to DK barrel)",
+                "access_rules": ["EASY, tires, $slap", "NORMAL, tires, $slap", "NORMAL, diddy, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #4 (Cache next to DK barrel)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "2076",
+                    "y": "145"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache ???)",
+                "access_rules": ["EASY, tires, $slap", "NORMAL, tires, $slap", "NORMAL, diddy, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #5 (Cache ???)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "2451",
+                    "y": "401"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (Near O)",
+                "access_rules": ["EASY, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #6 (Near O)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "3055",
+                    "y": "410"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #7 (Near O)",
+                "access_rules": ["EASY, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #7 (Near O)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "3185",
+                    "y": "410"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #8 (Cache below continue barrel)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #8 (Cache below continue barrel)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "310",
+                    "y": "717"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #9 (Cache below N)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #9 (Cache below N)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "605",
+                    "y": "877"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #10 (Cache between two barrels)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #10 (Cache between two barrels)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "958",
+                    "y": "688"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #11 (Cache in trench with three Slippas)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #11 (Cache in trench with three Slippas)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "2206",
+                    "y": "745"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #12 (Cache in trench with three Slippas)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #12 (Cache in trench with three Slippas)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "2269",
+                    "y": "745"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #13 (Cache in trench with three Slippas)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #13 (Cache in trench with three Slippas)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "2341",
+                    "y": "745"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #14 (Cache near exit)",
+                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Reptile Rumble - Banana Bunch #14 (Cache near exit)",
+            "map_locations": [
+                {
+                    "map": "Reptile Rumble",
+                    "x": "3118",
+                    "y": "589"
+                }
+            ]
+        }
+        ]
+    }
+]

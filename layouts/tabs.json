@@ -1,0 +1,423 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "World Map",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "World Map",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                            "World Map"
+                                    ]
+                        }
+                        }
+                ]
+            }
+            },
+            {
+                "title": "Kongo Jungle",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Jungle Hijinxs",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Jungle Hijinxs"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Ropey Rampage",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Ropey Rampage"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Reptile Rumble",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Reptile Rumble"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Coral Capers",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Coral Capers"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Barrel Cannon Canyon",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Barrel Cannon Canyon"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Very Gnawty's Lair",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Very Gnawty's Lair"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Monkey Mines",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Winky's Walkway",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Winky's Walkway"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Mine Cart Carnage",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Mine Cart Carnage"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Bouncy Bonanza",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Bouncy Bonanza"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Stop & Go Station",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Stop & Go Station"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Millstone Mayhem",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Millstone Mayhem"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Necky's Nuts",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Necky's Nuts"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Vine Valley",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Vulture Culture",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Vulture Culture"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Tree Top Town",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Tree Top Town"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Forest Frenzy",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Forest Frenzy"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Temple Tempest",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Temple Tempest"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Orang-utan Gang",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Orang-utan Gang"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Clam City",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Clam City"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Bumble B Rumble",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Bumble B Rumble"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Gorilla Glacier",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Snow Barrel Blast",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Snow Barrel Blast"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Slipslide Ride",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Slipslide Ride"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Ice Age Alley",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Ice Age Alley"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Croctopus Chase",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Croctopus Chase"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Torchlight Trouble",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Torchlight Trouble"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Rope Bridge Rumble",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Rope Bridge Rumble"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Really Gnawty Rampage",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Really Gnawty Rampage"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Kremkroc Industries Inc.",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Oil Drum Alley",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Oil Drum Alley"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Trick Track Trek",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Trick Track Trek"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Elevator Antics",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Elevator Antics"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Poison Pond",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Poison Pond"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Mine Cart Madness",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Mine Cart Madness"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Blackout Basement",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Blackout Basement"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Boss Dumb Drum",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Boss Dumb Drum"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Chimp Caverns",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                        "title": "Tanked Up Trouble",
+                        "content": {
+                        "type": "map",
+                        "maps": [
+                            "Tanked Up Trouble"
+                                ]
+                        }
+                        },
+                        {
+                            "title": "Manic Mincers",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Manic Mincers"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Misty Mine",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Misty Mine"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Loopy Lights",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Loopy Lights"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Platform Perils",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Platform Perils"
+                                    ]
+                        }
+                        },
+                        {
+                            "title": "Necky's Revenge",
+                            "content": {
+                            "type": "map",
+                            "maps": [
+                                "Necky's Revenge"
+                                    ]
+                        }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

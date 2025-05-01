@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Platform Perils",
+        "access_rules": [""],
+        "visibility_rules": ["chimpcavernsaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, platforms, carry, donkey, tires", "EASY, platforms, carry, roll, tires", "NORMAL, platforms, carry, donkey, tires", "NORMAL, platforms, carry, roll, tires"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Platform Perils - Clear",
+            "map_locations": [
+                {
+                    "map": "Platform Perils",
+                    "x": "4116",
+                    "y": "1251"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, platforms, carry, donkey, tires", "EASY, platforms, carry, roll, tires", "NORMAL, platforms, carry, donkey, tires", "NORMAL, platforms, carry, roll, tires"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Platform Perils - KONG",
+            "map_locations": [
+                {
+                    "map": "Platform Perils",
+                    "shape": "diamond",
+                    "x": "1853",
+                    "y": "266"
+                },
+                {
+                    "map": "Platform Perils",
+                    "shape": "diamond",
+                    "x": "1928",
+                    "y": "853"
+                },
+                {
+                    "map": "Platform Perils",
+                    "shape": "diamond",
+                    "x": "2934",
+                    "y": "834"
+                },
+                {
+                    "map": "Platform Perils",
+                    "shape": "diamond",
+                    "x": "3306",
+                    "y": "1065"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, platforms, carry, barrelkannons", "NORMAL, platforms, carry, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Platform Perils - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Platform Perils",
+                    "x": "21",
+                    "y": "447"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, platforms, carry, donkey, tires, barrelkannons", "EASY, platforms, carry, roll, tires, barrelkannons", "NORMAL, platforms, carry, donkey, tires, barrelkannons", "NORMAL, platforms, carry, roll, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Platform Perils - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Platform Perils",
+                    "x": "3915",
+                    "y": "1454"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Winky Token",
+                "access_rules": ["EASY, platforms, carry, donkey", "EASY, platforms, carry, roll", "NORMAL, platforms, carry, donkey", "NORMAL, platforms, carry, roll"],
+                "chest_unopened_img": "images/checks/tokensanity_disabled.png",
+                "chest_opened_img": "images/checks/tokensanity.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Platform Perils - Winky Token",
+            "map_locations": [
+                {
+                    "map": "Platform Perils",
+                    "x": "26",
+                    "y": "941"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (After arrow platform stair set)",
+                "access_rules": ["EASY, platforms, carry", "NORMAL, platforms, carry"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Platform Perils - Banana Bunch #1 (After arrow platform stair set)",
+            "map_locations": [
+                {
+                    "map": "Platform Perils",
+                    "x": "679",
+                    "y": "1439"
+                }
+            ]
+        }
+        ]
+    }
+]

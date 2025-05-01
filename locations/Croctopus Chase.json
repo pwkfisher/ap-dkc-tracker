@@ -1,0 +1,228 @@
+[
+    {
+        "name": "Croctopus Chase",
+        "access_rules": [""],
+        "visibility_rules": ["gorillaglacieraccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Clear",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "4076",
+                    "y": "38"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - KONG",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "shape": "diamond",
+                    "x": "1934",
+                    "y": "1531"
+                },
+                {
+                    "map": "Croctopus Chase",
+                    "shape": "diamond",
+                    "x": "301",
+                    "y": "975"
+                },
+                {
+                    "map": "Croctopus Chase",
+                    "shape": "diamond",
+                    "x": "2635",
+                    "y": "1249"
+                },
+                {
+                    "map": "Croctopus Chase",
+                    "shape": "diamond",
+                    "x": "3934",
+                    "y": "134"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Red Balloon #1 (Near Enguarde crate)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
+                "chest_opened_img": "images/checks/balloonsanity.png",
+                "visibility_rules": ["balloonsanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Red Balloon #1 (Near Enguarde crate)",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "2238",
+                    "y": "443"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Winky Token",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/winky_disabled.png",
+                "chest_opened_img": "images/checks/winky.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Winky Token",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "3980",
+                    "y": "2339"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Enguarde Token",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/enguarde_disabled.png",
+                "chest_opened_img": "images/checks/enguarde.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Enguarde Token",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "3024",
+                    "y": "1865"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Before K)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Banana Bunch #1 (Before K)",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "1767",
+                    "y": "1547"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Next to Enguarde token)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Banana Bunch #2 (Next to Enguarde token)",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "2967",
+                    "y": "1865"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Next to Enguarde token)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Banana Bunch #3 (Next to Enguarde token)",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "2994",
+                    "y": "1865"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Next to Enguarde token)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Banana Bunch #4 (Next to Enguarde token)",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "3054",
+                    "y": "1865"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Next to Enguarde token)",
+                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Croctopus Chase - Banana Bunch #5 (Next to Enguarde token)",
+            "map_locations": [
+                {
+                    "map": "Croctopus Chase",
+                    "x": "3079",
+                    "y": "1865"
+                }
+            ]
+        }
+        ]
+    }
+]

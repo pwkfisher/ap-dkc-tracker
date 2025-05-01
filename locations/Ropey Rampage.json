@@ -1,0 +1,528 @@
+[
+    {
+        "name": "Ropey Rampage",
+        "access_rules": [""],
+        "visibility_rules": ["kongojungleaccess", "visibility_markers"],
+        "children": [
+            {    
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Clear",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "2720",
+                    "y": "1396"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - KONG",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "shape": "diamond",
+                    "x": "661",
+                    "y": "275"
+                },
+                {
+                    "map": "Ropey Rampage",
+                    "shape": "diamond",
+                    "x": "2713",
+                    "y": "140"
+                },
+                {
+                    "map": "Ropey Rampage",
+                    "shape": "diamond",
+                    "x": "67",
+                    "y": "1105"
+                },
+                {
+                    "map": "Ropey Rampage",
+                    "shape": "diamond",
+                    "x": "2632",
+                    "y": "1237"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "465",
+                    "y": "917"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "2096",
+                    "y": "1520"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Rambi Token (In palm tree near swinging rope)",
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
+                "chest_unopened_img": "images/checks/rambi_disabled.png",
+                "chest_opened_img": "images/checks/rambi.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Rambi Token (In palm tree near swinging rope)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "1766",
+                    "y": "147"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Winky Token (Buried next to Army)",
+                "access_rules": ["EASY, tires, climb", "NORMAL, tires, climb"],
+                "chest_unopened_img": "images/checks/winky_disabled.png",
+                "chest_opened_img": "images/checks/winky.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Winky Token (Buried next to Army)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "850",
+                    "y": "1254"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Above palm tree near start)",
+                "access_rules": ["EASY, roll", "NORMAL"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #1 (Above palm tree near start)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "489",
+                    "y": "105"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Above palm tree near start)",
+                "access_rules": ["EASY, roll", "NORMAL"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #2 (Above palm tree near start)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "517",
+                    "y": "105"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Above palm tree near start)",
+                "access_rules": ["EASY, roll", "NORMAL"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #3 (Above palm tree near start)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "545",
+                    "y": "105"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Cache in ledge with Kritter)",
+                "access_rules": ["EASY, $slap", "EASY $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #4 (Cache in ledge with Kritter)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "517",
+                    "y": "305"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache below ledge with Kritter)",
+                "access_rules": ["EASY, $slap", "EASY $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #5 (Cache below ledge with Kritter)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "499",
+                    "y": "385"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (Cache in palm tree with Army)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #6 (Cache in palm tree with Army)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "916",
+                    "y": "256"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #7 (Cache in palm tree with Army)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #7 (Cache in palm tree with Army)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "1013",
+                    "y": "256"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #8 (Cache in palm tree next to Army)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #8 (Cache in palm tree next to Army)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "1141",
+                    "y": "223"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #9 (Cache below DK Barrel)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #9 (Cache below DK Barrel)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "1507",
+                    "y": "144"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #10 (Cache below swinging rope)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #10 (Cache below swinging rope)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "1875",
+                    "y": "374"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #11 (Cache in palm tree before O)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #11 (Cache in palm tree before O)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "2580",
+                    "y": "223"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #12 (Cache in palm tree below O)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #12 (Cache in palm tree below O)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "2677",
+                    "y": "256"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #13 (Cache below two swinging ropes)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #13 (Cache below two swinging ropes)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "1172",
+                    "y": "893"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #14 (Cache below two swinging ropes)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #14 (Cache below two swinging ropes)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "1349",
+                    "y": "891"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #15 (Cache above DK Barrel)",
+                "access_rules": ["EASY, $slap, climb, roll", "NORMAL, $slap, climb, roll"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #15 (Cache above DK Barrel)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "1860",
+                    "y": "714"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #16 (Cache below buried Winky token)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #16 (Cache below buried Winky token)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "850",
+                    "y": "1334"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #17 (Above palm tree near exit)",
+                "access_rules": ["EASY, climb, roll", "NORMAL, climb, roll"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #17 (Above palm tree near exit)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "2193",
+                    "y": "1159"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #18 (Above palm tree near exit)",
+                "access_rules": ["EASY, climb, roll", "NORMAL, climb, roll"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #18 (Above palm tree near exit)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "2210",
+                    "y": "1159"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #19 (Cache below G)",
+                "access_rules": ["EASY, $slap, climb", "NORMAL, $slap, climb"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Ropey Rampage - Banana Bunch #19 (Cache below G)",
+            "map_locations": [
+                {
+                    "map": "Ropey Rampage",
+                    "x": "2548",
+                    "y": "1414"
+                }
+            ]
+        }
+    ]
+}
+]

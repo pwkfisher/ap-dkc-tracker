@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Manic Mincers",
+        "access_rules": [""],
+        "visibility_rules": ["chimpcavernsaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, tires, donkey, diddy", "EASY, tires, rambi", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Manic Mincers - Clear",
+            "map_locations": [
+                {
+                    "map": "Manic Mincers",
+                    "x": "3407",
+                    "y": "1364"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, donkey, diddy", "EASY, rambi", "NORMAL"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Manic Mincers - KONG",
+            "map_locations": [
+                {
+                    "map": "Manic Mincers",
+                    "shape": "diamond",
+                    "x": "944",
+                    "y": "215"
+                },
+                {
+                    "map": "Manic Mincers",
+                    "shape": "diamond",
+                    "x": "2307",
+                    "y": "89"
+                },
+                {
+                    "map": "Manic Mincers",
+                    "shape": "diamond",
+                    "x": "3130",
+                    "y": "634"
+                },
+                {
+                    "map": "Manic Mincers",
+                    "shape": "diamond",
+                    "x": "2254",
+                    "y": "1329"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, donkey, diddy, carry", "EASY, rambi", "NORMAL, donkey, diddy, carry", "NORMAL, rambi"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Manic Mincers - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Manic Mincers",
+                    "x": "1840",
+                    "y": "791"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, donkey, diddy, carry", "EASY, rambi", "NORMAL, donkey, diddy, carry", "NORMAL, rambi"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Manic Mincers - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Manic Mincers",
+                    "x": "2958",
+                    "y": "1432"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Winky Token",
+                "access_rules": ["EASY, donkey, diddy", "EASY, rambi", "NORMAL"],
+                "chest_unopened_img": "images/checks/winky_disabled.png",
+                "chest_opened_img": "images/checks/winky.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Manic Mincers - Winky Token",
+            "map_locations": [
+                {
+                    "map": "Manic Mincers",
+                    "x": "2159",
+                    "y": "1127"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Between Mincers after O)",
+                "access_rules": ["EASY, donkey, diddy", "EASY, rambi", "NORMAL"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Manic Mincers - Banana Bunch #1 (Between Mincers after O)",
+            "map_locations": [
+                {
+                    "map": "Manic Mincers",
+                    "x": "2672",
+                    "y": "105"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (In the center of three rotating Mincers)",
+                "access_rules": ["EASY, donkey, diddy", "EASY, rambi", "NORMAL"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Manic Mincers - Banana Bunch #2 (In the center of three rotating Mincers)",
+            "map_locations": [
+                {
+                    "map": "Manic Mincers",
+                    "x": "2136",
+                    "y": "704"
+                }
+            ]
+        }
+        ]
+    }
+]

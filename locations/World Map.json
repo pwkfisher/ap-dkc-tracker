@@ -1,0 +1,2052 @@
+[
+    {
+        "name": "World Map",
+        "access_rules": [""],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Final Boss Access",
+                        "access_rules": ["$finalbossaccess"],
+                        "chest_unopened_img": "images/settings/map_disabled.png",
+                        "chest_opened_img": "images/settings/map.png",
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                    "name": "Gangplank Galleon",
+                    "map_locations": [
+                        {
+                            "map": "World Map",
+                            "x": "111",
+                            "y": "686",
+                            "size": "30"
+                        }
+                    ]
+                },
+            {
+                "sections": [
+                    {
+                        "name": "Barrel Cannon Canyon - Clear",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Clear/Clear"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - KONG",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - KONG/KONG"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Bonus #1",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Bonus #2",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Winky Token (Below ledge)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Winky Token (Below ledge)/Winky Token (Below ledge)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Rambi Token (Near three brown Kritters)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Rambi Token (Near three brown Kritters)/Rambi Token (Near three brown Kritters)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #1 (Cache near DK barrel)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #1 (Cache near DK barrel)/Banana Bunch #1 (Cache near DK barrel)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #2 (Cache in a corner)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #2 (Cache in a corner)/Banana Bunch #2 (Cache in a corner)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #3 (Cache in a palm tree above three brown Kritters)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #3 (Cache in a palm tree above three brown Kritters)/Banana Bunch #3 (Cache in a palm tree above three brown Kritters)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #4 (Cache below three brown Kritters)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #4 (Cache below three brown Kritters)/Banana Bunch #4 (Cache below three brown Kritters)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #5 (Cache before continue barrel)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #5 (Cache before continue barrel)/Banana Bunch #5 (Cache before continue barrel)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #6 (Cache in a pit after continue barrel)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #6 (Cache in a pit after continue barrel)/Banana Bunch #6 (Cache in a pit after continue barrel)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #7 (Cache near TNT barrel)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #7 (Cache near TNT barrel)/Banana Bunch #7 (Cache near TNT barrel)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #8 (Cache near TNT barrel)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #8 (Cache near TNT barrel)/Banana Bunch #8 (Cache near TNT barrel)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #9 (Cache below a Barrel Kannon)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #9 (Cache below a Barrel Kannon)/Banana Bunch #9 (Cache below a Barrel Kannon)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #10 (Cache in a palm tree near exit)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #10 (Cache in a palm tree near exit)/Banana Bunch #10 (Cache in a palm tree near exit)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #11 (Cache in a palm tree near exit)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #11 (Cache in a palm tree near exit)/Banana Bunch #11 (Cache in a palm tree near exit)"
+                    },
+                    {
+                        "name": "Barrel Cannon Canyon - Banana Bunch #12 (Cache below third blue Kritter near exit)",
+                        "ref": "Barrel Cannon Canyon/Barrel Cannon Canyon - Banana Bunch #12 (Cache below third blue Kritter near exit)/Banana Bunch #12 (Cache below third blue Kritter near exit)"
+                    }
+                ],
+                "name": "Barrel Cannon Canyon",
+                "access_rules": [""],
+                "visibility_rules": [],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1248",
+                        "y": "304",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Blackout Basement",
+                "visibility_rules": ["kremkrocindustriesinc.access"],
+                "sections": [
+                    {
+                        "name": "Blackout Basement - Clear",
+                        "ref": "Blackout Basement/Blackout Basement - Clear/Clear"
+                    },
+                    {
+                        "name": "Blackout Basement - KONG",
+                        "ref": "Blackout Basement/Blackout Basement - KONG/KONG"
+                    },
+                    {
+                        "name": "Blackout Basement - Bonus #1",
+                        "ref": "Blackout Basement/Blackout Basement - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Blackout Basement - Bonus #2",
+                        "ref": "Blackout Basement/Blackout Basement - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Blackout Basement - Enguarde Token",
+                        "ref": "Blackout Basement/Blackout Basement - Enguarde Token/Enguarde Token"
+                    },
+                    {
+                        "name": "Blackout Basement - Banana Bunch #1 (Below arrow platform)",
+                        "ref": "Blackout Basement/Blackout Basement - Banana Bunch #1 (Below arrow platform)/Banana Bunch #1 (Below arrow platform)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "2462",
+                        "y": "622",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Boss Dumb Drum",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Boss Dumb Drum - Clear",
+                        "ref": "Boss Dumb Drum/Clear"
+                    },
+                    {
+                        "name": "Boss Dumb Drum - Defeat Dumb Drum",
+                        "ref": "Boss Dumb Drum/Defeat Dumb Drum"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "2273",
+                        "y": "591",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Bouncy Bonanza",
+                "visibility_rules": ["monkeyminesaccess"],
+                "sections": [
+                    {
+                        "name": "Bouncy Bonanza - Clear",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Clear/Clear"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - KONG",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - KONG/KONG"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Bonus #1",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Bonus #2",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Rambi Token",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Rambi Token/Rambi Token"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #1 (Cache next to tire)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #1 (Cache next to tire)/Banana Bunch #1 (Cache next to tire)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #2 (Cache below K)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #2 (Cache below K)/Banana Bunch #2 (Cache below K)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #3 (Cache near bonus #1 entrance)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #3 (Cache near bonus #1 entrance)/Banana Bunch #3 (Cache near bonus #1 entrance)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #4 (Cache near bonus #1 exit)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #4 (Cache near bonus #1 exit)/Banana Bunch #4 (Cache near bonus #1 exit)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #5 (Cache near N)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #5 (Cache near N)/Banana Bunch #5 (Cache near N)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #6 (Cache near N)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #6 (Cache near N)/Banana Bunch #6 (Cache near N)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #7 (Cache above Winky's cave)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #7 (Cache above Winky's cave)/Banana Bunch #7 (Cache above Winky's cave)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #8 (Cache near G)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #8 (Cache near G)/Banana Bunch #8 (Cache near G)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #9 (Cache near G)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #9 (Cache near G)/Banana Bunch #9 (Cache near G)"
+                    },
+                    {
+                        "name": "Bouncy Bonanza - Banana Bunch #10 (Cache near exit)",
+                        "ref": "Bouncy Bonanza/Bouncy Bonanza - Banana Bunch #10 (Cache near exit)/Banana Bunch #10 (Cache near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "751",
+                        "y": "781",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Bumble B Rumble",
+                "visibility_rules": ["vinevalleyaccess"],
+                "sections": [
+                    {
+                        "name": "Bumble B Rumble - Clear",
+                        "ref": "Bumble B Rumble/Clear"
+                    },
+                    {
+                        "name": "Bumble B Rumble - Defeated Queen B.",
+                        "ref": "Bumble B Rumble/Defeated Queen B."
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1183",
+                        "y": "1086",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Clam City",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Clam City - Clear",
+                        "ref": "Clam City/Clam City - Clear/Clear"
+                    },
+                    {
+                        "name": "Clam City - KONG",
+                        "ref": "Clam City/Clam City - KONG/KONG"
+                    },
+                    {
+                        "name": "Clam City - Winky Token",
+                        "ref": "Clam City/Clam City - Winky Token/Winky Token"
+                    },
+                    {
+                        "name": "Clam City - Banana Bunch #1 (Near start)",
+                        "ref": "Clam City/Clam City - Banana Bunch #1 (Near start)/Banana Bunch #1 (Near start)"
+                    },
+                    {
+                        "name": "Clam City - Banana Bunch #2 (In a corner before a vertical section)",
+                        "ref": "Clam City/Clam City - Banana Bunch #2 (In a corner before a vertical section)/Banana Bunch #2 (In a corner before a vertical section)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1183",
+                        "y": "1261",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Coral Capers",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Coral Capers - Clear",
+                        "ref": "Coral Capers/Coral Capers - Clear/Clear"
+                    },
+                    {
+                        "name": "Coral Capers - KONG",
+                        "ref": "Coral Capers/Coral Capers - KONG/KONG"
+                    },
+                    {
+                        "name": "Coral Capers - Red Balloon #1 (In second Croctopus' path)",
+                        "ref": "Coral Capers/Coral Capers - Red Balloon #1 (In second Croctopus' path)/Red Balloon #1 (In second Croctopus' path)"
+                    },
+                    {
+                        "name": "Coral Capers - Expresso Token (In secret area near two Chomps)",
+                        "ref": "Coral Capers/Coral Capers - Expresso Token (In secret area near two Chomps)/Expresso Token (In secret area near two Chomps)"
+                    },
+                    {
+                        "name": "Coral Capers - Banana Bunch #1 (Below first Croctopus)",
+                        "ref": "Coral Capers/Coral Capers - Banana Bunch #1 (Below first Croctopus)/Banana Bunch #1 (Below first Croctopus)"
+                    },
+                    {
+                        "name": "Coral Capers - Banana Bunch #2 (Next to O)",
+                        "ref": "Coral Capers/Coral Capers - Banana Bunch #2 (Next to O)/Banana Bunch #2 (Next to O)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1263",
+                        "y": "400",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Croctopus Chase",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Croctopus Chase - Clear",
+                        "ref": "Croctopus Chase/Croctopus Chase - Clear/Clear"
+                    },
+                    {
+                        "name": "Croctopus Chase - KONG",
+                        "ref": "Croctopus Chase/Croctopus Chase - KONG/KONG"
+                    },
+                    {
+                        "name": "Croctopus Chase - Red Balloon #1 (Near Enguarde crate)",
+                        "ref": "Croctopus Chase/Croctopus Chase - Red Balloon #1 (Near Enguarde crate)/Red Balloon #1 (Near Enguarde crate)"
+                    },
+                    {
+                        "name": "Croctopus Chase - Winky Token",
+                        "ref": "Croctopus Chase/Croctopus Chase - Winky Token/Winky Token"
+                    },
+                    {
+                        "name": "Croctopus Chase - Enguarde Token",
+                        "ref": "Croctopus Chase/Croctopus Chase - Enguarde Token/Enguarde Token"
+                    },
+                    {
+                        "name": "Croctopus Chase - Banana Bunch #1 (Before K)",
+                        "ref": "Croctopus Chase/Croctopus Chase - Banana Bunch #1 (Before K)/Banana Bunch #1 (Before K)"
+                    },
+                    {
+                        "name": "Croctopus Chase - Banana Bunch #2 (Next to Enguarde token)",
+                        "ref": "Croctopus Chase/Croctopus Chase - Banana Bunch #2 (Next to Enguarde token)/Banana Bunch #2 (Next to Enguarde token)"
+                    },
+                    {
+                        "name": "Croctopus Chase - Banana Bunch #3 (Next to Enguarde token)",
+                        "ref": "Croctopus Chase/Croctopus Chase - Banana Bunch #3 (Next to Enguarde token)/Banana Bunch #3 (Next to Enguarde token)"
+                    },
+                    {
+                        "name": "Croctopus Chase - Banana Bunch #4 (Next to Enguarde token)",
+                        "ref": "Croctopus Chase/Croctopus Chase - Banana Bunch #4 (Next to Enguarde token)/Banana Bunch #4 (Next to Enguarde token)"
+                    },
+                    {
+                        "name": "Croctopus Chase - Banana Bunch #5 (Next to Enguarde token)",
+                        "ref": "Croctopus Chase/Croctopus Chase - Banana Bunch #5 (Next to Enguarde token)/Banana Bunch #5 (Next to Enguarde token)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1944",
+                        "y": "376",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Elevator Antics",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Elevator Antics - Clear",
+                        "ref": "Elevator Antics/Elevator Antics - Clear/Clear"
+                    },
+                    {
+                        "name": "Elevator Antics - KONG",
+                        "ref": "Elevator Antics/Elevator Antics - KONG/KONG"
+                    },
+                    {
+                        "name": "Elevator Antics - Bonus #1",
+                        "ref": "Elevator Antics/Elevator Antics - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Elevator Antics - Bonus #2",
+                        "ref": "Elevator Antics/Elevator Antics - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Elevator Antics - Bonus #3",
+                        "ref": "Elevator Antics/Elevator Antics - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Elevator Antics - Banana Bunch #1 (Next to Drum spawning Slippas)",
+                        "ref": "Elevator Antics/Elevator Antics - Banana Bunch #1 (Next to Drum spawning Slippas)/Banana Bunch #1 (Next to Drum spawning Slippas)"
+                    },
+                    {
+                        "name": "Elevator Antics - Banana Bunch #2 (At the end of a long rope)",
+                        "ref": "Elevator Antics/Elevator Antics - Banana Bunch #2 (At the end of a long rope)/Banana Bunch #2 (At the end of a long rope)"
+                    },
+                    {
+                        "name": "Elevator Antics - Banana Bunch #3 (Bottom of the pit after continue barrel)",
+                        "ref": "Elevator Antics/Elevator Antics - Banana Bunch #3 (Bottom of the pit after continue barrel)/Banana Bunch #3 (Bottom of the pit after continue barrel)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1592",
+                        "y": "783",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Forest Frenzy",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Forest Frenzy - Clear",
+                        "ref": "Forest Frenzy/Forest Frenzy - Clear/Clear"
+                    },
+                    {
+                        "name": "Forest Frenzy - KONG",
+                        "ref": "Forest Frenzy/Forest Frenzy - KONG/KONG"
+                    },
+                    {
+                        "name": "Forest Frenzy - Red Balloon #1 (In the middle of a fast Zinger)",
+                        "ref": "Forest Frenzy/Forest Frenzy - Red Balloon #1 (In the middle of a fast Zinger)/Red Balloon #1 (In the middle of a fast Zinger)"
+                    },
+                    {
+                        "name": "Forest Frenzy - Bonus #1",
+                        "ref": "Forest Frenzy/Forest Frenzy - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Forest Frenzy - Bonus #2",
+                        "ref": "Forest Frenzy/Forest Frenzy - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Forest Frenzy - Banana Bunch #1 (Cache below DK Barrel)",
+                        "ref": "Forest Frenzy/Forest Frenzy - Banana Bunch #1 (Cache below DK Barrel)/Banana Bunch #1 (Cache below DK Barrel)"
+                    },
+                    {
+                        "name": "Forest Frenzy - Banana Bunch #2 (Cache below two Kritters)",
+                        "ref": "Forest Frenzy/Forest Frenzy - Banana Bunch #2 (Cache below two Kritters)/Banana Bunch #2 (Cache below two Kritters)"
+                    },
+                    {
+                        "name": "Forest Frenzy - Banana Bunch #3 (Cache in corner next to two Kritters)",
+                        "ref": "Forest Frenzy/Forest Frenzy - Banana Bunch #3 (Cache in corner next to two Kritters)/Banana Bunch #3 (Cache in corner next to two Kritters)"
+                    },
+                    {
+                        "name": "Forest Frenzy - Banana Bunch #4 (Cache in edge below Kritter)",
+                        "ref": "Forest Frenzy/Forest Frenzy - Banana Bunch #4 (Cache in edge below Kritter)/Banana Bunch #4 (Cache in edge below Kritter)"
+                    },
+                    {
+                        "name": "Forest Frenzy - Banana Bunch #5 (Cache below arrow sign)",
+                        "ref": "Forest Frenzy/Forest Frenzy - Banana Bunch #5 (Cache below arrow sign)/Banana Bunch #5 (Cache below arrow sign)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "783",
+                        "y": "1245",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Ice Age Alley",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Ice Age Alley - Clear",
+                        "ref": "Ice Age Alley/Ice Age Alley - Clear/Clear"
+                    },
+                    {
+                        "name": "Ice Age Alley - KONG",
+                        "ref": "Ice Age Alley/Ice Age Alley - KONG/KONG"
+                    },
+                    {
+                        "name": "Ice Age Alley - Bonus #1",
+                        "ref": "Ice Age Alley/Ice Age Alley - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Ice Age Alley - Bonus #2",
+                        "ref": "Ice Age Alley/Ice Age Alley - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Ice Age Alley - Banana Bunch #1 (Cache after initial slope)",
+                        "ref": "Ice Age Alley/Ice Age Alley - Banana Bunch #1 (Cache after initial slope)/Banana Bunch #1 (Cache after initial slope)"
+                    },
+                    {
+                        "name": "Ice Age Alley - Banana Bunch #2 (Cache next to Manky Kong)",
+                        "ref": "Ice Age Alley/Ice Age Alley - Banana Bunch #2 (Cache next to Manky Kong)/Banana Bunch #2 (Cache next to Manky Kong)"
+                    },
+                    {
+                        "name": "Ice Age Alley - Banana Bunch #3 (Before exit)",
+                        "ref": "Ice Age Alley/Ice Age Alley - Banana Bunch #3 (Before exit)/Banana Bunch #3 (Before exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1808",
+                        "y": "344",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Jungle Hijinxs",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Jungle Hijinxs - Clear",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Clear/Clear"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - KONG",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - KONG/KONG"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Bonus #1",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Bonus #2",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Red Balloon #1 (Inside Cabin)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Red Balloon #1 (Inside Cabin)/Red Balloon #1 (Inside Cabin)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Red Balloon #2 (After K)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Red Balloon #2 (After K)/Red Balloon #2 (After K)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Red Balloon #3 (Above Klumps)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Red Balloon #3 (Above Klumps)/Red Balloon #3 (Above Klumps)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Green Balloon #1 (Above Klumps)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Green Balloon #1 (Above Klumps)/Green Balloon #1 (Above Klumps)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Blue Balloon #1 (Above exit)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Blue Balloon #1 (Above exit)/Blue Balloon #1 (Above exit)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Blue Balloon #2 (Above exit)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Blue Balloon #2 (Above exit)/Blue Balloon #2 (Above exit)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Expresso Token (Below Necky)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Expresso Token (Below Necky)/Expresso Token (Below Necky)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #1 (Cache in palm tree)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #1 (Cache in palm tree)/Banana Bunch #1 (Cache in palm tree)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #2 (Cache in front of hoard)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #2 (Cache in front of hoard)/Banana Bunch #2 (Cache in front of hoard)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #3 (Cache in front of hoard)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #3 (Cache in front of hoard)/Banana Bunch #3 (Cache in front of hoard)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #4 (Above palm tree)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #4 (Above palm tree)/Banana Bunch #4 (Above palm tree)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #5 (Cache below K)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #5 (Cache below K)/Banana Bunch #5 (Cache below K)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #6 (Cache in palm tree above K)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #6 (Cache in palm tree above K)/Banana Bunch #6 (Cache in palm tree above K)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #7 (Cache in palm tree next to red balloon)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #7 (Cache in palm tree next to red balloon)/Banana Bunch #7 (Cache in palm tree next to red balloon)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #8 (Cache in ledge with Kritter)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #8 (Cache in ledge with Kritter)/Banana Bunch #8 (Cache in ledge with Kritter)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #9 (Cache below ledge with Kritter)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #9 (Cache below ledge with Kritter)/Banana Bunch #9 (Cache below ledge with Kritter)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #10 (Cache in ledge with Kritter)",
+                        "ref": "Jungle Hijinxs - Banana Bunch #10 (Cache in ledge with Kritter)/Banana Bunch #10 (Cache in ledge with Kritter)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #11 (Cache below ledge with Kritter)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #11 (Cache below ledge with Kritter)/Banana Bunch #11 (Cache below ledge with Kritter)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #12 (Between Kritters)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #12 (Between Kritters)/Banana Bunch #12 (Between Kritters)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #13 (Cache in palm tree below red balloon)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #13 (Cache in palm tree below red balloon)/Banana Bunch #13 (Cache in palm tree below red balloon)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #14 (Cache above Expresso token)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #14 (Cache above Expresso token)/Banana Bunch #14 (Cache above Expresso token)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #15 (Cache below G)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #15 (Cache below G)/Banana Bunch #15 (Cache below G)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #16 (Above pit)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #16 (Above pit)/Banana Bunch #16 (Above pit)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #17 (Cache before exit)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #17 (Cache before exit)/Banana Bunch #17 (Cache before exit)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #18 (Cache before exit)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #18 (Cache before exit)/Banana Bunch #18 (Cache before exit)"
+                    },
+                    {
+                        "name": "Jungle Hijinxs - Banana Bunch #19 (In palm tree before exit)",
+                        "ref": "Jungle Hijinxs/Jungle Hijinxs - Banana Bunch #19 (In palm tree before exit)/Banana Bunch #19 (In palm tree before exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "735",
+                        "y": "177",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Loopy Lights",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Loopy Lights - Clear",
+                        "ref": "Loopy Lights/Loopy Lights - Clear/Clear"
+                    },
+                    {
+                        "name": "Loopy Lights - KONG",
+                        "ref": "Loopy Lights/Loopy Lights - KONG/KONG"
+                    },
+                    {
+                        "name": "Loopy Lights - Bonus #1",
+                        "ref": "Loopy Lights/Loopy Lights - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Loopy Lights - Bonus #2",
+                        "ref": "Loopy Lights/Loopy Lights - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Loopy Lights - Banana Bunch #1 (Above lamp)",
+                        "ref": "Loopy Lights/Loopy Lights - Banana Bunch #1 (Above lamp)/Banana Bunch #1 (Above lamp)"
+                    },
+                    {
+                        "name": "Loopy Lights - Banana Bunch #2 (Cache near exit)",
+                        "ref": "Loopy Lights/Loopy Lights - Banana Bunch #2 (Cache near exit)/Banana Bunch #2 (Cache near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "2392",
+                        "y": "988",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Manic Mincers",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Manic Mincers - Clear",
+                        "ref": "Manic Mincers/Manic Mincers - Clear/Clear"
+                    },
+                    {
+                        "name": "Manic Mincers - KONG",
+                        "ref": "Manic Mincers/Manic Mincers - KONG/KONG"
+                    },
+                    {
+                        "name": "Manic Mincers - Bonus #1",
+                        "ref": "Manic Mincers/Manic Mincers - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Manic Mincers - Bonus #2",
+                        "ref": "Manic Mincers/Manic Mincers - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Manic Mincers - Winky Token",
+                        "ref": "Manic Mincers/Manic Mincers - Winky Token/Winky Token"
+                    },
+                    {
+                        "name": "Manic Mincers - Banana Bunch #1 (Between Mincers after O)",
+                        "ref": "Manic Mincers/Manic Mincers - Banana Bunch #1 (Between Mincers after O)/Banana Bunch #1 (Between Mincers after O)"
+                    },
+                    {
+                        "name": "Manic Mincers - Banana Bunch #2 (In the center of three rotating Mincers)",
+                        "ref": "Manic Mincers/Manic Mincers - Banana Bunch #2 (In the center of three rotating Mincers)/Banana Bunch #2 (In the center of three rotating Mincers)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1647",
+                        "y": "1052",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Millstone Mayhem",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Millstone Mayhem - Clear",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Clear/Clear"
+                    },
+                    {
+                        "name": "Millstone Mayhem - KONG",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - KONG/KONG"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Bonus #1",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Bonus #2",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Bonus #3",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #1 (Cache near start in stairs)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #1 (Cache near start in stairs)/Banana Bunch #1 (Cache near start in stairs)"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #2 (Cache in ledge near O)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #2 (Cache in ledge near O)/Banana Bunch #2 (Cache in ledge near O)"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #3 (Cache in trench with blue Kritters)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #3 (Cache in trench with blue Kritters)/Banana Bunch #3 (Cache in trench with blue Kritters)"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #4 (Cache in trench with Slippas)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #4 (Cache in trench with Slippas)/Banana Bunch #4 (Cache in trench with Slippas)"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #5 (Cache below Necky)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #5 (Cache below Necky)/Banana Bunch #5 (Cache below Necky)"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #6 (Cache below G)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #6 (Cache below G)/Banana Bunch #6 (Cache below G)"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #7 (Above Zinger near exit)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #7 (Above Zinger near exit)/Banana Bunch #7 (Above Zinger near exit)"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #8 (Above Zinger near exit)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #8 (Above Zinger near exit)/Banana Bunch #8 (Above Zinger near exit)"
+                    },
+                    {
+                        "name": "Millstone Mayhem - Banana Bunch #9 (Cache near exit)",
+                        "ref": "Millstone Mayhem/Millstone Mayhem - Banana Bunch #9 (Cache near exit)/Banana Bunch #9 (Cache near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1248",
+                        "y": "751",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Mine Cart Carnage",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Mine Cart Carnage - Clear",
+                        "ref": "Mine Cart Carnage/Mine Cart Carnage - Clear/Clear"
+                    },
+                    {
+                        "name": "Mine Cart Carnage - KONG",
+                        "ref": "Mine Cart Carnage/Mine Cart Carnage - KONG/KONG"
+                    },
+                    {
+                        "name": "Mine Cart Carnage - Red Balloon #1 (In minecart section)",
+                        "ref": "Mine Cart Carnage/Mine Cart Carnage - Red Balloon #1 (In minecart section)/Red Balloon #1 (In minecart section)"
+                    },
+                    {
+                        "name": "Mine Cart Carnage - Enguarde Token",
+                        "ref": "Mine Cart Carnage/Mine Cart Carnage - Enguarde Token/Enguarde Token"
+                    },
+                    {
+                        "name": "Mine Cart Carnage - Banana Bunch #1 (Cache at the start)",
+                        "ref": "Mine Cart Carnage/Mine Cart Carnage - Banana Bunch #1 (Cache at the start)/Banana Bunch #1 (Cache at the start)"
+                    },
+                    {
+                        "name": "Mine Cart Carnage - Banana Bunch #2 (In minecart section)",
+                        "ref": "Mine Cart Carnage/Mine Cart Carnage - Banana Bunch #2 (In minecart section)/Banana Bunch #2 (In minecart section)"
+                    },
+                    {
+                        "name": "Mine Cart Carnage - Banana Bunch #3 (In minecart section)",
+                        "ref": "Mine Cart Carnage/Mine Cart Carnage - Banana Bunch #3 (In minecart section)/Banana Bunch #3 (In minecart section)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "686",
+                        "y": "703",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Mine Cart Madness",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Mine Cart Madness - Clear",
+                        "ref": "Mine Cart Madness/Mine Cart Madness - Clear/Clear"
+                    },
+                    {
+                        "name": "Mine Cart Madness - KONG",
+                        "ref": "Mine Cart Madness/Mine Cart Madness - KONG/KONG"
+                    },
+                    {
+                        "name": "Mine Cart Madness - Bonus #1",
+                        "ref": "Mine Cart Madness/Mine Cart Madness - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Mine Cart Madness - Bonus #2",
+                        "ref": "Mine Cart Madness/Mine Cart Madness - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Mine Cart Madness - Bonus #3",
+                        "ref": "Mine Cart Madness/Mine Cart Madness - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Mine Cart Madness - Enguarde Token",
+                        "ref": "Mine Cart Madness/Mine Cart Madness - Enguarde Token/Enguarde Token"
+                    },
+                    {
+                        "name": "Mine Cart Madness - Banana Bunch #1 (In minecart section)",
+                        "ref": "Mine Cart Madness/Mine Cart Madness - Banana Bunch #1 (In minecart section)/Banana Bunch #1 (In minecart section)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "2144",
+                        "y": "624",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Misty Mine",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Misty Mine - Clear",
+                        "ref": "Misty Mine/Misty Mine - Clear/Clear"
+                    },
+                    {
+                        "name": "Misty Mine - KONG",
+                        "ref": "Misty Mine/Misty Mine - Bonus #1/KONG"
+                    },
+                    {
+                        "name": "Misty Mine - Bonus #1",
+                        "ref": "Misty Mine/Misty Mine - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Misty Mine - Bonus #2",
+                        "ref": "Misty Mine/Misty Mine - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Misty Mine - Rambi Token",
+                        "ref": "Misty Mine/Misty Mine - Rambi Token/Rambi Token"
+                    },
+                    {
+                        "name": "Misty Mine - Expresso Token",
+                        "ref": "Misty Mine/Misty Mine - Expresso Token/Expresso Token"
+                    },
+                    {
+                        "name": "Misty Mine - Banana Bunch #1 (Inside the first Gnawty barrel)",
+                        "ref": "Misty Mine/Misty Mine - Banana Bunch #1 (Inside the first Gnawty barrel)/Banana Bunch #1 (Inside the first Gnawty barrel)"
+                    },
+                    {
+                        "name": "Misty Mine - Banana Bunch #2 (In the middle of a pit)",
+                        "ref": "Misty Mine/Misty Mine - Banana Bunch #2 (In the middle of a pit)/Banana Bunch #2 (In the middle of a pit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1808",
+                        "y": "1309",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Necky's Nuts",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Necky's Nuts - Clear",
+                        "ref": "Necky's Nuts/Clear"
+                    },
+                    {
+                        "name": "Necky's Nuts - Defeat Master Necky",
+                        "ref": "Necky's Nuts/Defeat Master Necky"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1486",
+                        "y": "792",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Necky's Revenge",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Necky's Revenge - Clear",
+                        "ref": "Necky's Revenge/Clear"
+                    },
+                    {
+                        "name": "Necky's Revenge - Defeat Master Necky Snr.",
+                        "ref": "Necky's Revenge/Defeat Master Necky Snr."
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "2367",
+                        "y": "1294",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Oil Drum Alley",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Oil Drum Alley - Clear",
+                        "ref": "Oil Drum Alley/Oil Drum Alley - Clear/Clear"
+                    },
+                    {
+                        "name": "Oil Drum Alley - KONG",
+                        "ref": "Oil Drum Alley/Oil Drum Alley - KONG/KONG"
+                    },
+                    {
+                        "name": "Oil Drum Alley - Bonus #1",
+                        "ref": "Oil Drum Alley/Oil Drum Alley - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Oil Drum Alley - Bonus #2",
+                        "ref": "Oil Drum Alley/Oil Drum Alley - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Oil Drum Alley - Bonus #3",
+                        "ref": "Oil Drum Alley/Oil Drum Alley - Bonus #2/Bonus #3"
+                    },
+                    {
+                        "name": "Oil Drum Alley - Bonus #4",
+                        "ref": "Oil Drum Alley/Oil Drum Alley - Bonus #4/Bonus #4"
+                    },
+                    {
+                        "name": "Oil Drum Alley - Banana Bunch #1 (Above oil drum near O)",
+                        "ref": "Oil Drum Alley/Oil Drum Alley - Banana Bunch #1 (Above oil drum near O)/Banana Bunch #1 (Above oil drum near O)"
+                    },
+                    {
+                        "name": "Oil Drum Alley - Banana Bunch #2 (Between two Manky Kong)",
+                        "ref": "Oil Drum Alley/Oil Drum Alley - Banana Bunch #2 (Between two Manky Kong)/Banana Bunch #2 (Between two Manky Kong)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1655",
+                        "y": "591",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Orang-utan Gang",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Orang-utan Gang - Clear",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Clear/Clear"
+                    },
+                    {
+                        "name": "Orang-utan Gang - KONG",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - KONG/KONG"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Bonus #1",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Bonus #2",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Bonus #1/Bonus #2"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Bonus #3",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Bonus #4",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Bonus #4/Bonus #4"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Bonus #5",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Bonus #5/Bonus #5"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Enguarde Token (Buried near tire)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Enguarde Token (Buried near tire)/Enguarde Token (Buried near tire)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #1 (Cache near start)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #1 (Cache near start)/Banana Bunch #1 (Cache near start)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #2 (Cache at the end of ledge with a DK Barrel)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #2 (Cache at the end of ledge with a DK Barrel)/Banana Bunch #2 (Cache at the end of ledge with a DK Barrel)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #3 (Cache below Expresso crate)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #3 (Cache below Expresso crate)/Banana Bunch #3 (Cache below Expresso crate)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #4 (Near O)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #4 (Near O)/Banana Bunch #4 (Near O)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #5 (Cache before N)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #5 (Cache before N)/Banana Bunch #5 (Cache before N)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #6 (In path to bonus #2)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #6 (In path to bonus #2)/Banana Bunch #6 (In path to bonus #2)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #7 (Cache below tire)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #7 (Cache below tire)/Banana Bunch #7 (Cache below tire)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #8 (In a palm tree near exit)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #8 (In a palm tree near exit)/Banana Bunch #8 (In a palm tree near exit)"
+                    },
+                    {
+                        "name": "Orang-utan Gang - Banana Bunch #9 (In a palm tree near exit)",
+                        "ref": "Orang-utan Gang/Orang-utan Gang - Banana Bunch #9 (In a palm tree near exit)/Banana Bunch #9 (In a palm tree near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1480",
+                        "y": "1133",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Platform Perils",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Platform Perils - Clear",
+                        "ref": "Platform Perils/Platform Perils - Clear/Clear"
+                    },
+                    {
+                        "name": "Platform Perils - KONG",
+                        "ref": "Platform Perils/Platform Perils - KONG/KONG"
+                    },
+                    {
+                        "name": "Platform Perils - Bonus #1",
+                        "ref": "Platform Perils/Platform Perils - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Platform Perils - Bonus #2",
+                        "ref": "Platform Perils/Platform Perils - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Platform Perils - Winky Token",
+                        "ref": "Platform Perils/Platform Perils - Winky Token/Winky Token"
+                    },
+                    {
+                        "name": "Platform Perils - Banana Bunch #1 (After arrow platform stair set)",
+                        "ref": "Platform Perils/Platform Perils - Banana Bunch #1 (After arrow platform stair set)/Banana Bunch #1 (After arrow platform stair set)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "2303",
+                        "y": "1205",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Poison Pond",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Poison Pond - Clear",
+                        "ref": "Poison Pond/Poison Pond - Clear/Clear"
+                    },
+                    {
+                        "name": "Poison Pond - KONG",
+                        "ref": "Poison Pond/Poison Pond - KONG/KONG"
+                    },
+                    {
+                        "name": "Poison Pond - Rambi Token",
+                        "ref": "Poison Pond/Poison Pond - Rambi Token/Rambi Token"
+                    },
+                    {
+                        "name": "Poison Pond - Expresso Token",
+                        "ref": "Poison Pond/Poison Pond - Expresso Token/Expresso Token"
+                    },
+                    {
+                        "name": "Poison Pond - Banana Bunch #1 (Behind first Chomps Jr.)",
+                        "ref": "Poison Pond/Poison Pond - Banana Bunch #1 (Behind first Chomps Jr.)/Banana Bunch #1 (Behind first Chomps Jr.)"
+                    },
+                    {
+                        "name": "Poison Pond - Banana Bunch #2 (Behind second Chomps Jr.)",
+                        "ref": "Poison Pond/Poison Pond - Banana Bunch #2 (Behind second Chomps Jr.)/Banana Bunch #2 (Behind second Chomps Jr.)"
+                    },
+                    {
+                        "name": "Poison Pond - Banana Bunch #3 (Behind Mincer in a corner)",
+                        "ref": "Poison Pond - Banana Bunch #3 (Behind Mincer in a corner)/Banana Bunch #3 (Behind Mincer in a corner)"
+                    },
+                    {
+                        "name": "Poison Pond - Banana Bunch #4 (Below Mincer after continue barrel)",
+                        "ref": "Poison Pond/Poison Pond - Banana Bunch #4 (Below Mincer after continue barrel)/Banana Bunch #4 (Below Mincer after continue barrel)"
+                    },
+                    {
+                        "name": "Poison Pond - Banana Bunch #5 (Above Mincer after continue barrel)",
+                        "ref": "Poison Pond/Poison Pond - Banana Bunch #5 (Above Mincer after continue barrel)/Banana Bunch #5 (Above Mincer after continue barrel)"
+                    },
+                    {
+                        "name": "Poison Pond - Banana Bunch #6 (In a corner near three Mincers)",
+                        "ref": "Poison Pond/Poison Pond - Banana Bunch #6 (In a corner near three Mincers)/Banana Bunch #6 (In a corner near three Mincers)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "2127",
+                        "y": "798",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Really Gnawty Rampage",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Really Gnawty Rampage - Clear",
+                        "ref": "Really Gnawty Rampage/Clear"
+                    },
+                    {
+                        "name": "Really Gnawty Rampage - Defeat Really Gnawty",
+                        "ref": "Really Gnawty Rampage/Defeat Really Gnawty"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1664",
+                        "y": "136",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Reptile Rumble",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Reptile Rumble - Clear",
+                        "ref": "Reptile Rumble/Reptile Rumble - Clear/Clear"
+                    },
+                    {
+                        "name": "Reptile Rumble - KONG",
+                        "ref": "Reptile Rumble/Reptile Rumble - KONG/KONG"
+                    },
+                    {
+                        "name": "Reptile Rumble - Bonus #1",
+                        "ref": "Reptile Rumble/Reptile Rumble - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Reptile Rumble - Bonus #2",
+                        "ref": "Reptile Rumble/Reptile Rumble - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Reptile Rumble - Bonus #3",
+                        "ref": "Reptile Rumble/Reptile Rumble - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Reptile Rumble - Enguarde Token (Between two Kritters)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Enguarde Token (Between two Kritters)/Enguarde Token (Between two Kritters)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #1 (Cache near start)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #1 (Cache near start)/Banana Bunch #1 (Cache near start)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #2 (Cache before K)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #2 (Cache before K)/Banana Bunch #2 (Cache before K)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #3 (Cache ???)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #3 (Cache ???)/Banana Bunch #3 (Cache ???)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #4 (Cache next to DK barrel)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #4 (Cache next to DK barrel)/Banana Bunch #4 (Cache next to DK barrel)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #5 (Cache ???)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #5 (Cache ???)/Banana Bunch #5 (Cache ???)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #6 (Near O)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #6 (Near O)/Banana Bunch #6 (Near O)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #7 (Near O)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #7 (Near O)/Banana Bunch #7 (Near O)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #8 (Cache below continue barrel)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #8 (Cache below continue barrel)/Banana Bunch #8 (Cache below continue barrel)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #9 (Cache below N)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #9 (Cache below N)/Banana Bunch #9 (Cache below N)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #10 (Cache between two barrels)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #10 (Cache between two barrels)/Banana Bunch #10 (Cache between two barrels)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #11 (Cache in trench with three Slippas)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #11 (Cache in trench with three Slippas)/Banana Bunch #11 (Cache in trench with three Slippas)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #12 (Cache in trench with three Slippas)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #12 (Cache in trench with three Slippas)/Banana Bunch #12 (Cache in trench with three Slippas)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #13 (Cache in trench with three Slippas)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #13 (Cache in trench with three Slippas)/Banana Bunch #13 (Cache in trench with three Slippas)"
+                    },
+                    {
+                        "name": "Reptile Rumble - Banana Bunch #14 (Cache near exit)",
+                        "ref": "Reptile Rumble/Reptile Rumble - Banana Bunch #14 (Cache near exit)/Banana Bunch #14 (Cache near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "943",
+                        "y": "383",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Rope Bridge Rumble",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Rope Bridge Rumble - Clear",
+                        "ref": "Rope Bridge Rumble/Rope Bridge Rumble - Clear/Clear"
+                    },
+                    {
+                        "name": "Rope Bridge Rumble - KONG",
+                        "ref": "Rope Bridge Rumble/Rope Bridge Rumble - KONG/KONG"
+                    },
+                    {
+                        "name": "Rope Bridge Rumble - Bonus #1",
+                        "ref": "Rope Bridge Rumble/Rope Bridge Rumble - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Rope Bridge Rumble - Bonus #2",
+                        "ref": "Rope Bridge Rumble/Rope Bridge Rumble - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Rope Bridge Rumble - Banana Bunch #1 (In pit between Kritters)",
+                        "ref": "Rope Bridge Rumble/Rope Bridge Rumble - Banana Bunch #1 (In pit between Kritters)/Banana Bunch #1 (In pit between Kritters)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1823",
+                        "y": "206",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Ropey Rampage",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Ropey Rampage - Clear",
+                        "ref": "Ropey Rampage/Ropey Rampage - Clear/Clear"
+                    },
+                    {
+                        "name": "Ropey Rampage - KONG",
+                        "ref": "Ropey Rampage/Ropey Rampage - KONG/KONG"
+                    },
+                    {
+                        "name": "Ropey Rampage - Bonus #1",
+                        "ref": "Ropey Rampage/Ropey Rampage - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Ropey Rampage - Bonus #2",
+                        "ref": "Ropey Rampage/Ropey Rampage - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Ropey Rampage - Rambi Token (In palm tree near swinging rope)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Rambi Token (In palm tree near swinging rope)/Rambi Token (In palm tree near swinging rope)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Winky Token (Buried next to Army)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Winky Token (Buried next to Army)/Winky Token (Buried next to Army)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #1 (Above palm tree near start)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #1 (Above palm tree near start)/Banana Bunch #1 (Above palm tree near start)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #2 (Above palm tree near start)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #2 (Above palm tree near start)/Banana Bunch #2 (Above palm tree near start)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #3 (Above palm tree near start)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #3 (Above palm tree near start)/Banana Bunch #3 (Above palm tree near start)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #4 (Cache in ledge with Kritter)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #4 (Cache in ledge with Kritter)/Banana Bunch #4 (Cache in ledge with Kritter)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #5 (Cache below ledge with Kritter)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #5 (Cache below ledge with Kritter)/Banana Bunch #5 (Cache below ledge with Kritter)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #6 (Cache in palm tree with Army)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #6 (Cache in palm tree with Army)/Banana Bunch #6 (Cache in palm tree with Army)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #7 (Cache in palm tree with Army)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #7 (Cache in palm tree with Army)/Banana Bunch #7 (Cache in palm tree with Army)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #8 (Cache in palm tree next to Army)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #8 (Cache in palm tree next to Army)/Banana Bunch #8 (Cache in palm tree next to Army)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #9 (Cache below DK Barrel)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #9 (Cache below DK Barrel)/Banana Bunch #9 (Cache below DK Barrel)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #10 (Cache below swinging rope)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #10 (Cache below swinging rope)/Banana Bunch #10 (Cache below swinging rope)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #11 (Cache in palm tree before O)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #11 (Cache in palm tree before O)/Banana Bunch #11 (Cache in palm tree before O)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #12 (Cache in palm tree below O)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #12 (Cache in palm tree below O)/Banana Bunch #12 (Cache in palm tree below O)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #13 (Cache below two swinging ropes)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #13 (Cache below two swinging ropes)/Banana Bunch #13 (Cache below two swinging ropes)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #14 (Cache below two swinging ropes)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #14 (Cache below two swinging ropes)/Banana Bunch #14 (Cache below two swinging ropes)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #15 (Cache above DK Barrel)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #15 (Cache above DK Barrel)/Banana Bunch #15 (Cache above DK Barrel)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #16 (Cache below buried Winky token)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #16 (Cache below buried Winky token)/Banana Bunch #16 (Cache below buried Winky token)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #17 (Above palm tree near exit)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #17 (Above palm tree near exit)/Banana Bunch #17 (Above palm tree near exit)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #18 (Above palm tree near exit)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #18 (Above palm tree near exit)/Banana Bunch #18 (Above palm tree near exit)"
+                    },
+                    {
+                        "name": "Ropey Rampage - Banana Bunch #19 (Cache below G)",
+                        "ref": "Ropey Rampage/Ropey Rampage - Banana Bunch #19 (Cache below G)/Banana Bunch #19 (Cache below G)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "639",
+                        "y": "304",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Slipslide Ride",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Slipslide Ride - Clear",
+                        "ref": "Slipslide Ride/Slipslide Ride - Clear/Clear"
+                    },
+                    {
+                        "name": "Slipslide Ride - KONG",
+                        "ref": "Slipslide Ride/Slipslide Ride - KONG/KONG"
+                    },
+                    {
+                        "name": "Slipslide Ride - Bonus #1",
+                        "ref": "Slipslide Ride/Slipslide Ride - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Slipslide Ride - Bonus #2",
+                        "ref": "Slipslide Ride/Slipslide Ride - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Slipslide Ride - Bonus #3",
+                        "ref": "Slipslide Ride/Slipslide Ride - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Slipslide Ride - Enguarde Token (Buried below O)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Enguarde Token (Buried below O)/Enguarde Token (Buried below O)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #1 (Above Necky)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #1 (Above Necky)/Banana Bunch #1 (Above Necky)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #2 (Cache near Army)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #2 (Cache near Army)/Banana Bunch #2 (Cache near Army)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #3 (Above O)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #3 (Above O)/Banana Bunch #3 (Above O)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #4 (Below O)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #4 (Below O)/Banana Bunch #4 (Below O)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #5 (Above Zinger in purple rope)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #5 (Above Zinger in purple rope)/Banana Bunch #5 (Above Zinger in purple rope)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #6 (Next to N)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #6 (Next to N)/Banana Bunch #6 (Next to N)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #7 (Next to N)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #7 (Next to N)/Banana Bunch #7 (Next to N)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #8 (Cache before set of purple ropes)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #8 (Cache before set of purple ropes)/Banana Bunch #8 (Cache before set of purple ropes)"
+                    },
+                    {
+                        "name": "Slipslide Ride - Banana Bunch #9 (Cache next to arrow sign)",
+                        "ref": "Slipslide Ride/Slipslide Ride - Banana Bunch #9 (Cache next to arrow sign)/Banana Bunch #9 (Cache next to arrow sign)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1694",
+                        "y": "335",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Snow Barrel Blast",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Snow Barrel Blast - Clear",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Clear/Clear"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - KONG",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - KONG/KONG"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Red Balloon #1 (After trio of Neckys)",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Red Balloon #1 (After trio of Neckys)/Red Balloon #1 (After trio of Neckys)"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Blue Balloon (After final barrel section)",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Blue Balloon (After final barrel section)/Blue Balloon (After final barrel section)"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Bonus #1",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Bonus #2",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Bonus #3",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Rambi Token",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Rambi Token/Rambi Token"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Banana Bunch #1 (Cache next to barrel at start)",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Banana Bunch #1 (Cache next to barrel at start)/Banana Bunch #1 (Cache next to barrel at start)"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Banana Bunch #2 (Cache before K)",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Banana Bunch #2 (Cache before K)/Banana Bunch #2 (Cache before K)"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Banana Bunch #3 (Cache next to DK Barrel near bonus #3)",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Banana Bunch #3 (Cache next to DK Barrel near bonus #3)/Banana Bunch #3 (Cache next to DK Barrel near bonus #3)"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Banana Bunch #4 (Near shortcut exit)",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Banana Bunch #4 (Near shortcut exit)/Banana Bunch #4 (Near shortcut exit)"
+                    },
+                    {
+                        "name": "Snow Barrel Blast - Banana Bunch #5 (Cache near exit)",
+                        "ref": "Snow Barrel Blast/Snow Barrel Blast - Banana Bunch #5 (Cache near exit)/Banana Bunch #5 (Cache near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1567",
+                        "y": "335",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Stop & Go Station",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Stop & Go Station - Clear",
+                        "ref": "Stop & Go Station/Stop & Go Station - Clear/Clear"
+                    },
+                    {
+                        "name": "Stop & Go Station - KONG",
+                        "ref": "Stop & Go Station/Stop & Go Station - KONG/KONG"
+                    },
+                    {
+                        "name": "Stop & Go Station - Bonus #1",
+                        "ref": "Stop & Go Station/Stop & Go Station - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Stop & Go Station - Bonus #2",
+                        "ref": "Stop & Go Station/Stop & Go Station - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Stop & Go Station - Expresso Token",
+                        "ref": "Stop & Go Station/Stop & Go Station - Expresso Token/Expresso Token"
+                    },
+                    {
+                        "name": "Stop & Go Station - Banana Bunch #1 (Cache below first switch barrel)",
+                        "ref": "Stop & Go Station/Stop & Go Station - Banana Bunch #1 (Cache below first switch barrel)/Banana Bunch #1 (Cache below first switch barrel)"
+                    },
+                    {
+                        "name": "Stop & Go Station - Banana Bunch #2 (Cache in ledge near K)",
+                        "ref": "Stop & Go Station/Stop & Go Station - Banana Bunch #2 (Cache in ledge near K)/Banana Bunch #2 (Cache in ledge near K)"
+                    },
+                    {
+                        "name": "Stop & Go Station - Banana Bunch #3 (Cache in the middle of two Rockcrocs)",
+                        "ref": "Stop & Go Station/Stop & Go Station - Banana Bunch #3 (Cache in the middle of two Rockcrocs)/Banana Bunch #3 (Cache in the middle of two Rockcrocs)"
+                    },
+                    {
+                        "name": "Stop & Go Station - Banana Bunch #4 (Cache near continue barrel)",
+                        "ref": "Stop & Go Station/Stop & Go Station - Banana Bunch #4 (Cache near continue barrel)/Banana Bunch #4 (Cache near continue barrel)"
+                    },
+                    {
+                        "name": "Stop & Go Station - Banana Bunch #5 (Cache below bonus #2)",
+                        "ref": "Stop & Go Station/Stop & Go Station - Banana Bunch #5 (Cache below bonus #2)/Banana Bunch #5 (Cache below bonus #2)"
+                    },
+                    {
+                        "name": "Stop & Go Station - Banana Bunch #6 (Cache in corner below Klaptrap)",
+                        "ref": "Stop & Go Station/Stop & Go Station - Banana Bunch #6 (Cache in corner below Klaptrap)/Banana Bunch #6 (Cache in corner below Klaptrap)"
+                    },
+                    {
+                        "name": "Stop & Go Station - Banana Bunch #7 (Cache in corner below G)",
+                        "ref": "Stop & Go Station/Stop & Go Station - Banana Bunch #7 (Cache in corner below G)/Banana Bunch #7 (Cache in corner below G)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "864",
+                        "y": "800",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Tanked Up Trouble",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Tanked Up Trouble - Clear",
+                        "ref": "Tanked Up Trouble/Tanked Up Trouble - Clear/Clear"
+                    },
+                    {
+                        "name": "Tanked Up Trouble - KONG",
+                        "ref": "Tanked Up Trouble/Tanked Up Trouble - KONG/KONG"
+                    },
+                    {
+                        "name": "Tanked Up Trouble - Bonus #1",
+                        "ref": "Tanked Up Trouble/Tanked Up Trouble - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Tanked Up Trouble - Enguarde Token",
+                        "ref": "Tanked Up Trouble/Tanked Up Trouble - Enguarde Token/Enguarde Token"
+                    },
+                    {
+                        "name": "Tanked Up Trouble - Banana Bunch #1 (After an arrow platform stair)",
+                        "ref": "Tanked Up Trouble/Tanked Up Trouble - Banana Bunch #1 (After an arrow platform stair)/Banana Bunch #1 (After an arrow platform stair)"
+                    },
+                    {
+                        "name": "Tanked Up Trouble - Banana Bunch #2 (On an arrow platform)",
+                        "ref": "Tanked Up Trouble/Tanked Up Trouble - Banana Bunch #2 (On an arrow platform)/Banana Bunch #2 (On an arrow platform)"
+                    },
+                    {
+                        "name": "Tanked Up Trouble - Banana Bunch #3 (Near N)",
+                        "ref": "Tanked Up Trouble/Tanked Up Trouble - Banana Bunch #3 (Near N)/Banana Bunch #3 (Near N)"
+                    },
+                    {
+                        "name": "Tanked Up Trouble - Banana Bunch #4 (After final fuel drum)",
+                        "ref": "Tanked Up Trouble/Tanked Up Trouble - Banana Bunch #4 (After final fuel drum)/Banana Bunch #4 (After final fuel drum)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1615",
+                        "y": "1261",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Temple Tempest",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Temple Tempest - Clear",
+                        "ref": "Temple Tempest/Temple Tempest - Clear/Clear"
+                    },
+                    {
+                        "name": "Temple Tempest - KONG",
+                        "ref": "Temple Tempest/Temple Tempest - KONG/KONG"
+                    },
+                    {
+                        "name": "Temple Tempest - Bonus #1",
+                        "ref": "Temple Tempest/Temple Tempest - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Temple Tempest - Bonus #2",
+                        "ref": "Temple Tempest/Temple Tempest - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Temple Tempest - Rambi Token",
+                        "ref": "Temple Tempest/Temple Tempest - Rambi Token/Rambi Token"
+                    },
+                    {
+                        "name": "Temple Tempest - Banana Bunch #1 (Cache in stairs near start)",
+                        "ref": "Temple Tempest/Temple Tempest - Banana Bunch #1 (Cache in stairs near start)/Banana Bunch #1 (Cache in stairs near start)"
+                    },
+                    {
+                        "name": "Temple Tempest - Banana Bunch #2 (Cache above bonus #1)",
+                        "ref": "Temple Tempest/Temple Tempest - Banana Bunch #2 (Cache above bonus #1)/Banana Bunch #2 (Cache above bonus #1)"
+                    },
+                    {
+                        "name": "Temple Tempest - Banana Bunch #3 (Cache below third Millstone)",
+                        "ref": "Temple Tempest/Temple Tempest - Banana Bunch #3 (Cache below third Millstone)/Banana Bunch #3 (Cache below third Millstone)"
+                    },
+                    {
+                        "name": "Temple Tempest - Banana Bunch #4 (Cache below continue barrel)",
+                        "ref": "Temple Tempest/Temple Tempest - Banana Bunch #4 (Cache below continue barrel)/Banana Bunch #4 (Cache below continue barrel)"
+                    },
+                    {
+                        "name": "Temple Tempest - Banana Bunch #5 (Cache between two blue Kritter sets)",
+                        "ref": "Temple Tempest/Temple Tempest - Banana Bunch #5 (Cache between two blue Kritter sets)/Banana Bunch #5 (Cache between two blue Kritter sets)"
+                    },
+                    {
+                        "name": "Temple Tempest - Banana Bunch #6 (Cache in platform above Millstone)",
+                        "ref": "Temple Tempest/Temple Tempest - Banana Bunch #6 (Cache in platform above Millstone)/Banana Bunch #6 (Cache in platform above Millstone)"
+                    },
+                    {
+                        "name": "Temple Tempest - Banana Bunch #7 (Above small pit with a tire)",
+                        "ref": "Temple Tempest/Temple Tempest - Banana Bunch #7 (Above small pit with a tire)/Banana Bunch #7 (Above small pit with a tire)"
+                    },
+                    {
+                        "name": "Temple Tempest - Banana Bunch #8 (Above large pit with a tire)",
+                        "ref": "Temple Tempest/Temple Tempest - Banana Bunch #8 (Above large pit with a tire)/Banana Bunch #8 (Above large pit with a tire)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1278",
+                        "y": "1180",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Torchlight Trouble",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Torchlight Trouble - Clear",
+                        "ref": "Torchlight Trouble/Torchlight Trouble - Clear/Clear"
+                    },
+                    {
+                        "name": "Torchlight Trouble - KONG",
+                        "ref": "Torchlight Trouble/Torchlight Trouble - KONG/KONG"
+                    },
+                    {
+                        "name": "Torchlight Trouble - Bonus #1",
+                        "ref": "Torchlight Trouble/Torchlight Trouble - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Torchlight Trouble - Bonus #2",
+                        "ref": "Torchlight Trouble/Torchlight Trouble - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Torchlight Trouble - Banana Bunch #1 (Below Exit sign)",
+                        "ref": "Torchlight Trouble/Torchlight Trouble - Banana Bunch #1 (Below Exit sign)/Banana Bunch #1 (Below Exit sign)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "2192",
+                        "y": "192",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Tree Top Town",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Tree Top Town - Clear",
+                        "ref": "Tree Top Town/Tree Top Town - Clear/Clear"
+                    },
+                    {
+                        "name": "Tree Top Town - KONG",
+                        "ref": "Tree Top Town/Tree Top Town - KONG/KONG"
+                    },
+                    {
+                        "name": "Tree Top Town - Bonus #1",
+                        "ref": "Tree Top Town/Tree Top Town - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Tree Top Town - Bonus #2",
+                        "ref": "Tree Top Town/Tree Top Town - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Tree Top Town - Expresso Token",
+                        "ref": "Tree Top Town/Tree Top Town - Expresso Token/Expresso Token"
+                    },
+                    {
+                        "name": "Tree Top Town - Banana Bunch #1 (Cache near start)",
+                        "ref": "Tree Top Town/Tree Top Town - Banana Bunch #1 (Cache near start)/Banana Bunch #1 (Cache near start)"
+                    },
+                    {
+                        "name": "Tree Top Town - Banana Bunch #2 (Cache below K)",
+                        "ref": "Tree Top Town/Tree Top Town - Banana Bunch #2 (Cache below K)/Banana Bunch #2 (Cache below K)"
+                    },
+                    {
+                        "name": "Tree Top Town - Banana Bunch #3 (Cache in a corner)",
+                        "ref": "Tree Top Town/Tree Top Town - Banana Bunch #3 (Cache in a corner)/Banana Bunch #3 (Cache in a corner)"
+                    },
+                    {
+                        "name": "Tree Top Town - Banana Bunch #4 (Cache near exit)",
+                        "ref": "Tree Top Town/Tree Top Town - Banana Bunch #4 (Cache near exit)/Banana Bunch #4 (Cache near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "800",
+                        "y": "1084",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Trick Track Trek",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Trick Track Trek - Clear",
+                        "ref": "Trick Track Trek/Trick Track Trek - Clear/Clear"
+                    },
+                    {
+                        "name": "Trick Track Trek - KONG",
+                        "ref": "Trick Track Trek/Trick Track Trek - KONG/KONG"
+                    },
+                    {
+                        "name": "Trick Track Trek - Bonus #1",
+                        "ref": "Trick Track Trek/Trick Track Trek - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Trick Track Trek - Bonus #2",
+                        "ref": "Trick Track Trek/Trick Track Trek - Bonus #2/Bonus #2"
+                    },
+                    {
+                        "name": "Trick Track Trek - Bonus #3",
+                        "ref": "Trick Track Trek/Trick Track Trek - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Trick Track Trek - Winky Token",
+                        "ref": "Trick Track Trek/Trick Track Trek - Winky Token/Winky Token"
+                    },
+                    {
+                        "name": "Trick Track Trek - Banana Bunch #1 (Above Necky before K)",
+                        "ref": "Trick Track Trek/Trick Track Trek - Banana Bunch #1 (Above Necky before K)/Banana Bunch #1 (Above Necky before K)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1919",
+                        "y": "591",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Very Gnawty's Lair",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Very Gnawty's Lair - Clear",
+                        "ref": "Very Gnawty's Lair/Clear"
+                    },
+                    {
+                        "name": "Very Gnawty's Lair - Defeat Very Gnawty",
+                        "ref": "Very Gnawty's Lair/Defeat Very Gnawty"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "1407",
+                        "y": "177",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Vulture Culture",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Vulture Culture - Clear",
+                        "ref": "Vulture Culture/Vulture Culture - Clear/Clear"
+                    },
+                    {
+                        "name": "Vulture Culture - KONG",
+                        "ref": "Vulture Culture/Vulture Culture - KONG/KONG"
+                    },
+                    {
+                        "name": "Vulture Culture - Bonus #1",
+                        "ref": "Vulture Culture/Vulture Culture - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Vulture Culture - Bonus #2",
+                        "ref": "Vulture Culture/Vulture Culture - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Vulture Culture - Bonus #3",
+                        "ref": "Vulture Culture/Vulture Culture - Bonus #3/Bonus #3"
+                    },
+                    {
+                        "name": "Vulture Culture - Banana Bunch #1 (Cache near DK barrel)",
+                        "ref": "Vulture Culture/Vulture Culture - Banana Bunch #1 (Cache near DK barrel)/Banana Bunch #1 (Cache near DK barrel)"
+                    },
+                    {
+                        "name": "Vulture Culture - Banana Bunch #2 (Cache in a four stair set)",
+                        "ref": "Vulture Culture/Vulture Culture - Banana Bunch #2 (Cache in a four stair set)/Banana Bunch #2 (Cache in a four stair set)"
+                    },
+                    {
+                        "name": "Vulture Culture - Banana Bunch #3 (Cache after set of two Necky)",
+                        "ref": "Vulture Culture/Vulture Culture - Banana Bunch #3 (Cache after set of two Necky)/Banana Bunch #3 (Cache after set of two Necky)"
+                    },
+                    {
+                        "name": "Vulture Culture - Banana Bunch #4 (Cache in ledge before Mini Necky)",
+                        "ref": "Vulture Culture/Vulture Culture - Banana Bunch #4 (Cache in ledge before Mini Necky)/Banana Bunch #4 (Cache in ledge before Mini Necky)"
+                    },
+                    {
+                        "name": "Vulture Culture - Banana Bunch #5 (Cache in a corner near two Mini Necky)",
+                        "ref": "Vulture Culture/Vulture Culture - Banana Bunch #5 (Cache in a corner near two Mini Necky)/Banana Bunch #5 (Cache in a corner near two Mini Necky)"
+                    },
+                    {
+                        "name": "Vulture Culture - Banana Bunch #6 (Cache below Mini Necky near exit)",
+                        "ref": "Vulture Culture/Vulture Culture - Banana Bunch #6 (Cache below Mini Necky near exit)/Banana Bunch #6 (Cache below Mini Necky near exit)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "608",
+                        "y": "1052",
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Winky's Walkway",
+                "visibility_rules": [""],
+                "sections": [
+                    {
+                        "name": "Winky's Walkway - Clear",
+                        "ref": "Winky's Walkway/Winky's Walkway - Clear/Clear"
+                    },
+                    {
+                        "name": "Winky's Walkway - KONG",
+                        "ref": "Winky's Walkway/Winky's Walkway - KONG/KONG"
+                    },
+                    {
+                        "name": "Winky's Walkway - Bonus #1",
+                        "ref": "Winky's Walkway/Winky's Walkway - Bonus #1/Bonus #1"
+                    },
+                    {
+                        "name": "Winky's Walkway - Expresso Token",
+                        "ref": "Winky's Walkway/Winky's Walkway - Expresso Token/Expresso Token"
+                    },
+                    {
+                        "name": "Winky's Walkway - Banana Bunch #1 (Cache in slope near start)",
+                        "ref": "Winky's Walkway/Winky's Walkway - Banana Bunch #1 (Cache in slope near start)/Banana Bunch #1 (Cache in slope near start)"
+                    },
+                    {
+                        "name": "Winky's Walkway - Banana Bunch #2 (Cache below Winky crate)",
+                        "ref": "Winky's Walkway/Winky's Walkway - Banana Bunch #2 (Cache below Winky crate)/Banana Bunch #2 (Cache below Winky crate)"
+                    },
+                    {
+                        "name": "Winky's Walkway - Banana Bunch #3 (Cache below continue barrel)",
+                        "ref": "Winky's Walkway/Winky's Walkway - Banana Bunch #3 (Cache below continue barrel)/Banana Bunch #3 (Cache below continue barrel)"
+                    },
+                    {
+                        "name": "Winky's Walkway - Banana Bunch #4 (Cache in platform near Expresso token)",
+                        "ref": "Winky's Walkway/Winky's Walkway - Banana Bunch #4 (Cache in platform near Expresso token)/Banana Bunch #4 (Cache in platform near Expresso token)"
+                    },
+                    {
+                        "name": "Winky's Walkway - Banana Bunch #5 (Cache after final Mini-Drum)",
+                        "ref": "Winky's Walkway/Winky's Walkway - Banana Bunch #5 (Cache after final Mini-Drum)/Banana Bunch #5 (Cache after final Mini-Drum)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "World Map",
+                        "x": "624",
+                        "y": "735",
+                        "size": 20
+                    }
+                ]
+            }
+        ]
+    }
+]

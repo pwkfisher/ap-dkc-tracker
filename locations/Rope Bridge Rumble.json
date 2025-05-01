@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Rope Bridge Rumble",
+        "access_rules": [""],
+        "visibility_rules": ["gorillaglacieraccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, tires", "NORMAL, tires"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Rope Bridge Rumble - Clear",
+            "map_locations": [
+                {
+                    "map": "Rope Bridge Rumble",
+                    "x": "2941",
+                    "y": "1301"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, tires, roll", "NORMAL, tires, roll"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Rope Bridge Rumble - KONG",
+            "map_locations": [
+                {
+                    "map": "Rope Bridge Rumble",
+                    "shape": "diamond",
+                    "x": "1550",
+                    "y": "291"
+                },
+                {
+                    "map": "Rope Bridge Rumble",
+                    "shape": "diamond",
+                    "x": "1285",
+                    "y": "810"
+                },
+                {
+                    "map": "Rope Bridge Rumble",
+                    "shape": "diamond",
+                    "x": "25011",
+                    "y": "705"
+                },
+                {
+                    "map": "Rope Bridge Rumble",
+                    "shape": "diamond",
+                    "x": "890",
+                    "y": "1404"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Rope Bridge Rumble - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Rope Bridge Rumble",
+                    "x": "735",
+                    "y": "387"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Rope Bridge Rumble - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Rope Bridge Rumble",
+                    "x": "1627",
+                    "y": "1199"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (In pit between Kritters)",
+                "access_rules": ["EASY, tires, roll", "NORMAL, tires, roll"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Rope Bridge Rumble - Banana Bunch #1 (In pit between Kritters)",
+            "map_locations": [
+                {
+                    "map": "Rope Bridge Rumble",
+                    "x": "2118",
+                    "y": "840"
+                }
+            ]
+        }
+        ]
+    }
+]

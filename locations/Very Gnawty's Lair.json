@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Very Gnawty's Lair",
+        "access_rules": [""],
+        "visibility_rules": ["kongojungleaccess", "visibility_markers"],
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Very Gnawty",
+                "access_rules": [""],
+                "chest_unopened_img": "images/checks/bossbanana_disabled.png",
+                "chest_opened_img": "images/checks/bossbanana.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Very Gnawty's Lair",
+                "x": "259",
+                "y": "185",
+                "size": 10
+            }
+        ]
+    }
+]

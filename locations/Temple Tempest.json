@@ -1,0 +1,288 @@
+[
+    {
+        "name": "Temple Tempest",
+        "access_rules": [""],
+        "visibility_rules": ["vinevalleyaccess", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, climb, tires", "NORMAL, climb, tires"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Clear",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "4205",
+                    "y": "1193"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, climb, tires, barrelkannons", "NORMAL, climb, tires, barrelkannons"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - KONG",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "shape": "diamond",
+                    "x": "733",
+                    "y": "384"
+                },
+                {
+                    "map": "Temple Tempest",
+                    "shape": "diamond",
+                    "x": "274",
+                    "y": "686"
+                },
+                {
+                    "map": "Temple Tempest",
+                    "shape": "diamond",
+                    "x": "3827",
+                    "y": "776"
+                },
+                {
+                    "map": "Temple Tempest",
+                    "shape": "diamond",
+                    "x": "3959",
+                    "y": "1406"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, climb, carry", "NORMAL, climb, carry", "NORMAL, diddy, roll, carry"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "1906",
+                    "y": "330"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "3237",
+                    "y": "940"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Rambi Token",
+                "access_rules": ["EASY, diddy"],
+                "chest_unopened_img": "images/checks/rambi_disabled.png",
+                "chest_opened_img": "images/checks/rambi.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Rambi Token",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "31",
+                    "y": "245"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Cache in stairs near start)",
+                "access_rules": ["EASY, $slap", "NORMAL $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Banana Bunch #1 (Cache in stairs near start)",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "416",
+                    "y": "398"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #2 (Cache above bonus #1)",
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Banana Bunch #2 (Cache above bonus #1)",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "1949",
+                    "y": "301"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #3 (Cache below third Millstone)",
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Banana Bunch #3 (Cache below third Millstone)",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "3741",
+                    "y": "272"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #4 (Cache below continue barrel)",
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Banana Bunch #4 (Cache below continue barrel)",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "1307",
+                    "y": "841"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #5 (Cache between two blue Kritter sets)",
+                "access_rules": ["EASY, climb, tires, $slap", "NORMAL, climb, tires, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Banana Bunch #5 (Cache between two blue Kritter sets)",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "76",
+                    "y": "1292"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #6 (Cache in platform above Millstone)",
+                "access_rules": ["EASY, climb, tires, $slap", "NORMAL, climb, tires, $slap"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Banana Bunch #6 (Cache in platform above Millstone)",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "841",
+                    "y": "1114"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #7 (Above small pit with a tire)",
+                "access_rules": ["EASY, climb, tires", "NORMAL, climb, tires"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Banana Bunch #7 (Above small pit with a tire)",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "1978",
+                    "y": "1069"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #8 (Above large pit with a tire)",
+                "access_rules": ["EASY, climb, tires", "NORMAL, climb, tires"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Temple Tempest - Banana Bunch #8 (Above large pit with a tire)",
+            "map_locations": [
+                {
+                    "map": "Temple Tempest",
+                    "x": "2712",
+                    "y": "1141"
+                }
+            ]
+        }
+        ]
+    }
+]

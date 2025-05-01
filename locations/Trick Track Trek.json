@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Trick Track Trek",
+        "access_rules": [""],
+        "visibility_rules": ["kremkrocindustriesinc.access", "visibility_markers"],
+        "children": [
+            {
+        "sections": [
+            {
+                "name": "Clear",
+                "access_rules": ["EASY, platforms, donkey", "EASY, platforms, diddy, roll", "NORMAL, platforms, donkey", "NORMAL, platforms, diddy, roll"],
+                "chest_unopened_img": "images/checks/clear_disabled.png",
+                "chest_opened_img": "images/checks/clear.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Trick Track Trek - Clear",
+            "map_locations": [
+                {
+                    "map": "Trick Track Trek",
+                    "x": "3907",
+                    "y": "1261"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "KONG",
+                "access_rules": ["EASY, platforms, donkey", "EASY, platforms, diddy, roll", "NORMAL, platforms, donkey", "NORMAL, platforms, diddy, roll"],
+                "chest_unopened_img": "images/checks/kong_disabled.png",
+                "chest_opened_img": "images/checks/kong.png",
+                "visibility_rules": ["kongchecks"],
+                "item_count": 1
+            }
+        ],
+            "name": "Trick Track Trek - KONG",
+            "map_locations": [
+                {
+                    "map": "Trick Track Trek",
+                    "shape": "diamond",
+                    "x": "2014",
+                    "y": "227"
+                },
+                {
+                    "map": "Trick Track Trek",
+                    "shape": "diamond",
+                    "x": "225",
+                    "y": "730"
+                },
+                {
+                    "map": "Trick Track Trek",
+                    "shape": "diamond",
+                    "x": "884",
+                    "y": "1172"
+                },
+                {
+                    "map": "Trick Track Trek",
+                    "shape": "diamond",
+                    "x": "1532",
+                    "y": "1325"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #1",
+                "access_rules": ["EASY, platforms, barrelkannons, roll", "NORMAL, platforms, barrelkannons, roll"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Trick Track Trek - Bonus #1",
+            "map_locations": [
+                {
+                    "map": "Trick Track Trek",
+                    "x": "1099",
+                    "y": "975"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #2",
+                "access_rules": ["EASY, platforms, barrelkannons", "NORMAL, platforms, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Trick Track Trek - Bonus #2",
+            "map_locations": [
+                {
+                    "map": "Trick Track Trek",
+                    "x": "3323",
+                    "y": "672"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Bonus #3",
+                "access_rules": ["EASY, platforms, donkey, barrelkannons", "EASY, platforms, diddy, roll, barrelkannons", "NORMAL, platforms, donkey, barrelkannons", "NORMAL, platforms, diddy, roll, barrelkannons"],
+                "chest_unopened_img": "images/checks/bonus_disabled.png",
+                "chest_opened_img": "images/checks/bonus.png",
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+            "name": "Trick Track Trek - Bonus #3",
+            "map_locations": [
+                {
+                    "map": "Trick Track Trek",
+                    "x": "3737",
+                    "y": "1501"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Winky Token",
+                "access_rules": ["EASY, platforms, donkey", "EASY, platforms, diddy, roll", "NORMAL, platforms, donkey", "NORMAL, platforms, diddy, roll"],
+                "chest_unopened_img": "images/checks/winky_disabled.png",
+                "chest_opened_img": "images/checks/winky.png",
+                "visibility_rules": ["tokensanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Trick Track Trek - Winky Token",
+            "map_locations": [
+                {
+                    "map": "Trick Track Trek",
+                    "x": "3876",
+                    "y": "1466"
+                }
+            ]
+        },
+        {
+            "sections": [
+                {
+                "name": "Banana Bunch #1 (Above Necky before K)",
+                "access_rules": ["EASY, platforms", "NORMAL, platforms"],
+                "chest_unopened_img": "images/checks/bananabunch_disabled.png",
+                "chest_opened_img": "images/checks/bananabunch.png",
+                "visibility_rules": ["bananasanity"],
+                "item_count": 1
+            }
+        ],
+            "name": "Trick Track Trek - Banana Bunch #1 (Above Necky before K)",
+            "map_locations": [
+                {
+                    "map": "Trick Track Trek",
+                    "x": "1658",
+                    "y": "169"
+                }
+            ]
+        }
+        ]
+    }
+]
