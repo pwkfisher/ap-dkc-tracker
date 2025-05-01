@@ -2,8 +2,8 @@
 	"versions": [
 		{
 			"package_version": "0.9.0",
-			"download_url": "https://github.com/pwkfisher/ap-dkc2-tracker/releases/download/0.9.4/ap-dkc2-tracker-0.9.4.zip",
-			"sha256": "71FD6856CD75188EDE285869A77934DDE5D9CC90934EEB826A8308073572E94D",
+			"download_url": "https://github.com/pwkfisher/ap-dkc-tracker/releases/download/initial/ap-dkc-tracker-0.9.0.zip",
+			"sha256": "A1783CC5ACF76121DE1A7834B5D4E24C39103FCD425F531C257AEA5DC0651D4E",
 			"changelog": ["Initial Release"]
 		},
 }
