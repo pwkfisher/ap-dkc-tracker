@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, switchbarrels, tires, barrelkannons, roll", "NORMAL, tires, barrelkannons, roll"],
+                "access_rules": ["EASY, switchbarrels, tires, barrelkannons, roll, carry", "NORMAL, tires, barrelkannons, roll, carry"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],

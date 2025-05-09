@@ -58,8 +58,8 @@
                 {
                     "map": "Oil Drum Alley",
                     "shape": "diamond",
-                    "x": "3394",
-                    "y": "1234"
+                    "x": "3339",
+                    "y": "1322"
                 }
             ]
         },
@@ -78,8 +78,8 @@
             "map_locations": [
                 {
                     "map": "Oil Drum Alley",
-                    "x": "3339",
-                    "y": "1322"
+                    "x": "627",
+                    "y": "480"
                 }
             ]
         },
@@ -115,7 +115,7 @@
             "sections": [
                 {
                 "name": "Bonus #4",
-                "access_rules": ["EASY, tires, carry", "NORMAL, tires, carry", "NORMAL, roll, carry"],
+                "access_rules": ["EASY, tires, carry, barrelkannons", "EASY, tires, rambi, barrelkannons", "NORMAL, tires, rambi, barrelkannons", "NORMAL, tires, carry, barrelkannons", "NORMAL, roll, carry, barrelkannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],

@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Enguarde Token (Buried near tire)",
-                "access_rules": ["EASY, expresso", "NORMAL, expresso"],
+                "access_rules": ["EASY, expresso, tires", "NORMAL, expresso, tires"],
                 "chest_unopened_img": "images/checks/enguarde_disabled.png",
                 "chest_opened_img": "images/checks/enguarde.png",
                 "visibility_rules": ["tokensanity"],

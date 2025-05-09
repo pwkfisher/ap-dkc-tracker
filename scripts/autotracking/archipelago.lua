@@ -7,7 +7,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
-ScriptHost:LoadScript("scripts/autotracking/visibility_mapping.lua")
 
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
@@ -175,6 +174,15 @@ function onClear(slot_data)
 	end
 	Tracker.BulkUpdate = false
 
+	if Archipelago.PlayerNumber>-1 then
+		print (string.format("Current slot data is", PLAYER_ID, TEAM_NUMBER))
+		EVENT_ID="dkc2_current_map_"..TEAM_NUMBER.."_"..PLAYER_ID
+		print(string.format("SET NOTIFY %s",EVENT_ID))
+		Archipelago:SetNotify({EVENT_ID})
+		Archipelago:Get({EVENT_ID})
+	end
+
+	Tracker:FindObjectForCode("tab_switch").Active = 1
 end
 
 

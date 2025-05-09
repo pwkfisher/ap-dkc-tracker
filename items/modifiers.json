@@ -14,6 +14,11 @@
       "codes": "visibility_markers"
     },
     {
+      "name": "Current Level",
+      "type": "progressive",
+      "codes": "cur_level_id"
+    },
+    {
         "name": "KONG Checks On",
         "type": "toggle",
         "img": "images/settings/kongcheck.png",

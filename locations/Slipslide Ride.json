@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Above Necky)",
-                "access_rules": [],
+                "access_rules": ["EASY, climb", "NORMAL, climb"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Cache near Army)",
-                "access_rules": [],
+                "access_rules": ["EASY, climb, $slap", "NORMAL, climb, $slap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
