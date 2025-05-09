@@ -1,7 +1,7 @@
 {
     "name": "Donkey Kong Country Archipelago",
     "game_name": "Donkey Kong Country",
-    "package_version": "0.9.0",
+    "package_version": "0.1.0",
     "package_uid": "donkey kong country_ap",
     "author": "pwkfisher",
     "variants": {
@@ -12,5 +12,6 @@
             ]
         }
     },
-    "min_poptracker_version": "0.27.0"
+    "min_poptracker_version": "0.27.0",
+    "versions_url": "https://raw.githubusercontent.com/pwkfisher/ap-dkc-tracker/refs/heads/main/versions.json"
 }
