@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "access_rules": ["EASY, barrelkannons, winky", "NORMAL, barrelkannons"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
