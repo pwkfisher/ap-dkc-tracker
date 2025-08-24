@@ -327,7 +327,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #10 (Cache between two barrels)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $slap, tires", "NORMAL, $slap, tires"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

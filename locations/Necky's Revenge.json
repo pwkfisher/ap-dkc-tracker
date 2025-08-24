@@ -1,7 +1,7 @@
 [
     {
         "name": "Necky's Revenge",
-        "access_rules": [""],
+        "access_rules": ["$cavernsbossaccess"],
         "visibility_rules": ["chimpcavernsaccess", "visibility_markers"],
         "sections": [
             {

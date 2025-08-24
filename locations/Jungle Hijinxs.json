@@ -347,7 +347,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #6 (Cache in palm tree above K)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $slap, roll", "NORMAL, $slap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -367,7 +367,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #7 (Cache in palm tree next to red balloon)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $slap, roll", "NORMAL, $slap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -487,7 +487,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #13 (Cache in palm tree below red balloon)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $slap, roll, diddy", "NORMAL, $slap", "NORMAL, rambi"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

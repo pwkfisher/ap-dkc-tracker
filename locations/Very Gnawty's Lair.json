@@ -1,7 +1,7 @@
 [
     {
         "name": "Very Gnawty's Lair",
-        "access_rules": [""],
+        "access_rules": ["$junglebossaccess"],
         "visibility_rules": ["kongojungleaccess", "visibility_markers"],
         "sections": [
             {

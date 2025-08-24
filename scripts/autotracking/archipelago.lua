@@ -85,7 +85,7 @@ end
 -- called right after an AP slot is connected
 function onClear(slot_data)
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
-	Tracker.BulkUpdate = true	
+	Tracker.BulkUpdate = true
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
@@ -110,7 +110,7 @@ function onClear(slot_data)
 						-- reset hosted item
 						local item_type = location_table[2]
 						resetItem(location_code, item_type)
-					end
+					end			
 				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 					print(string.format("onClear: skipping location_table with no location_code"))
 				end
@@ -125,6 +125,7 @@ function onClear(slot_data)
 			if item_table then
 				local item_code = item_table[1]
 				local item_type = item_table[2]
+				local apactive = true
 				if item_code then
 					resetItem(item_code, item_type)
 				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -142,6 +143,24 @@ function onClear(slot_data)
 
 	if slot_data["gangplank_tokens"] then
 		Tracker:FindObjectForCode("bigbananasrequired").AcquiredCount = slot_data["gangplank_tokens"]
+	end
+	if slot_data["required_caverns_levels"] then
+		Tracker:FindObjectForCode("ccbossaccess").AcquiredCount = slot_data["required_caverns_levels"]
+	end
+	if slot_data["required_glacier_levels"] then
+		Tracker:FindObjectForCode("ggbossaccess").AcquiredCount = slot_data["required_glacier_levels"]
+	end
+	if slot_data["required_mines_levels"] then
+		Tracker:FindObjectForCode("mmbossaccess").AcquiredCount = slot_data["required_mines_levels"]
+	end
+	if slot_data["required_industries_levels"] then
+		Tracker:FindObjectForCode("kiibossaccess").AcquiredCount = slot_data["required_industries_levels"]
+	end
+	if slot_data["required_valley_levels"] then
+		Tracker:FindObjectForCode("vvbossaccess").AcquiredCount = slot_data["required_valley_levels"]
+	end
+	if slot_data["required_jungle_levels"] then
+		Tracker:FindObjectForCode("kjbossaccess").AcquiredCount = slot_data["required_jungle_levels"]
 	end
 	if slot_data["kong_checks"] == 1 then
 		Tracker:FindObjectForCode("kongchecks").Active = true

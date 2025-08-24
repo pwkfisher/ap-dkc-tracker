@@ -18,7 +18,7 @@
                         "item_height": 44,
                         "item_width": 44,
                         "rows": [
-                            ["visibility_markers"]
+                            ["visibility_markers", "tab_switch"]
                         ]
                     }
                 ]

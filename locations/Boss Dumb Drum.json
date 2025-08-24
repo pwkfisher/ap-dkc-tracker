@@ -1,7 +1,7 @@
 [
     {
         "name": "Boss Dumb Drum",
-        "access_rules": [""],
+        "access_rules": ["$industriesbossaccess"],
         "visibility_rules": ["kremkrocindustriesinc.access", "visibility_markers"],
         "sections": [
             {

@@ -77,5 +77,144 @@
             "codes": "HARD"
           }
         ]
-    }
+    },
+    {
+      "name": "Konjo Jungle Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/kjbossaccess.png",
+      "allow_disabled": "false",
+      "img_mods": "",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "kjbossaccess"
+  },
+  {
+      "name": "Monkey Mines Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/mmbossaccess.png",
+      "allow_disabled": "false",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "mmbossaccess"
+  },
+  {
+      "name": "Vine Valley Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/vvbossaccess.png",
+      "allow_disabled": "false",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "vvbossaccess"
+  },
+  {
+      "name": "Gorilla Glacier Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/ggbossaccess.png",
+      "allow_disabled": "false",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "ggbossaccess"
+  },
+  {
+      "name": "Kremkroc Industries Inc. Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/kiibossaccess.png",
+      "allow_disabled": "false",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "kiibossaccess"
+  },
+  {
+      "name": "Chimp Caverns Level Clears Required",
+      "type": "consumable",
+      "img": "images/settings/ccbossaccess.png",
+      "allow_disabled": "false",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 10,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "ccbossaccess"
+  },
+    {
+      "name": "Konjo Jungle Level Clears",
+      "type": "consumable",
+      "img": "images/settings/kjclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 5,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "kjclears"
+  },
+  {
+      "name": "Monkey Mines Level Clears",
+      "type": "consumable",
+      "img": "images/settings/mmclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 5,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "mmclears"
+  },
+  {
+      "name": "Vine Valley Level Clears",
+      "type": "consumable",
+      "img": "images/settings/vvclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 6,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "vvclears"
+  },
+  {
+      "name": "Gorilla Glacier Level Clears",
+      "type": "consumable",
+      "img": "images/settings/ggclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 6,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "ggclears"
+  },
+  {
+      "name": "Kremkroc Industries Inc. Level Clears",
+      "type": "consumable",
+      "img": "images/settings/kiiclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 6,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "kiiclears"
+  },
+  {
+      "name": "Chimp Caverns Level Clears",
+      "type": "consumable",
+      "img": "images/settings/ccclears.png",
+      "initial_quantity": 0,
+      "min_quantity": 0,
+      "max_quantity": 5,
+      "increment": 1,
+      "overlay_font_size": 14,
+      "codes": "ccclears"
+  }
 ]

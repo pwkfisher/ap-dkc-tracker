@@ -1,7 +1,7 @@
 [
     {
         "name": "Really Gnawty Rampage",
-        "access_rules": [""],
+        "access_rules": ["$glacierbossaccess"],
         "visibility_rules": ["gorillaglacieraccess", "visibility_markers"],
         "sections": [
             {

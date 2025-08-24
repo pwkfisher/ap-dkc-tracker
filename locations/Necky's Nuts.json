@@ -1,7 +1,7 @@
 [
     {
         "name": "Necky's Nuts",
-        "access_rules": [""],
+        "access_rules": ["$minesbossaccess"],
         "visibility_rules": ["monkeyminesaccess", "visibility_markers"],
         "sections": [
             {

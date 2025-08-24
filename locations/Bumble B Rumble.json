@@ -1,7 +1,7 @@
 [
     {
         "name": "Bumble B Rumble",
-        "access_rules": [""],
+        "access_rules": ["$valleybossaccess"],
         "visibility_rules": ["vinevalleyaccess", "visibility_markers"],
         "sections": [
             {

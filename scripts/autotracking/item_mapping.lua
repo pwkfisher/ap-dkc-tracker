@@ -1,4 +1,4 @@
-ITEM_MAPPING = {
+	ITEM_MAPPING = {
 	[12521487] = {{"bigbanana", "consumable"}},
 	[12521472] = {{"kongojungleaccess", "toggle"}},
 	[12521473] = {{"monkeyminesaccess", "toggle"}},
