@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, carry, tires", "NORMAL, barrelkannons, tires"],
+                "access_rules": ["EASY, carry, tires", "NORMAL, carry, tires"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
