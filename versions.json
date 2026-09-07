@@ -1,6 +1,18 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.1",
+			"download_url": "https://github.com/pwkfisher/ap-dkc-tracker/releases/download/1.0.1/ap-dkc-tracker-1.0.1.zip",
+			"sha256": "fb7bd92f133d40df9e135a6d18744323e9198ca0d02c41358d1dba5856edb603",
+			"changelog": ["Bug fixes."]
+		},		
+		{
+			"package_version": "1.0.0",
+			"download_url": "https://github.com/pwkfisher/ap-dkc-tracker/releases/download/1.0.0/ap-dkc-tracker-1.0.0.zip",
+			"sha256": "f077fc656b7ff0c6bc15236e2b6be05f9dd7675f0b8d49df8775e415e2a0d8ef",
+			"changelog": ["Tanked Up Trouble Map Fix"]
+		},		
+		{
 			"package_version": "0.9.2",
 			"download_url": "https://github.com/pwkfisher/ap-dkc-tracker/releases/download/0.9.2/ap-dkc-tracker-0.9.2.zip",
 			"sha256": "b985131caf5c969529650a4f38f21f3603f06b5d4162b3dde1d826058da60bad",
