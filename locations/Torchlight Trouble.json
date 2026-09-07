@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, donkey, squawks", "NORMAL"],
+                "access_rules": ["EASY, $HasDonkey, $HasSquawks","NORMAL, $HasSquawks","HARD"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, donkey, squawks, carry, roll, tires", "NORMAL, carry, roll"],
+                "access_rules": ["EASY, $HasDonkey, $HasSquawks, $CanCarry, $CanRoll, $HasTires","NORMAL, $HasSquawks, $CanCarry, $CanRoll","HARD, $CanCarry, $CanRoll"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -67,7 +67,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, donkey, squawks, carry", "NORMAL, carry"],
+                "access_rules": ["EASY, $HasDonkey, $HasSquawks, $CanCarry","NORMAL, $HasSquawks, $CanCarry","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, donkey, squawks, carry", "NORMAL, carry"],
+                "access_rules": ["EASY, $HasDonkey, $HasSquawks, $CanCarry","NORMAL, $HasSquawks, $CanCarry","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Below Exit sign)",
-                "access_rules": ["EASY, donkey, squawks, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $HasDonkey, $HasSquawks, $CanSlap","NORMAL, $HasSquawks, $CanSlap","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, $bothkongs, tires", "NORMAL, tires"],
+                "access_rules": ["EASY, $HasBothKongs, $HasTires","NORMAL, $HasTires","HARD"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -14,7 +14,7 @@
             },
             {
                 "name": "Defeat Master Necky",
-                "access_rules": ["EASY, $bothkongs, tires", "NORMAL, tires"],
+                "access_rules": ["EASY, $HasBothKongs, $HasTires","NORMAL, $HasTires","HARD"],
                 "chest_unopened_img": "images/checks/bossbanana_disabled.png",
                 "chest_opened_img": "images/checks/bossbanana.png",
                 "visibility_rules": [],

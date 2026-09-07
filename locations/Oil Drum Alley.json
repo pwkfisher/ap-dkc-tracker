@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "access_rules": ["EASY, $HasTires, $HasKannons","NORMAL, $HasTires, $HasKannons","HARD, $HasKannons, $HasTires","HARD, $HasKannons, $HasDiddy, $HasRambi","HARD, $HasKannons, $HasDiddy, $CanRoll"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, tires, roll, barrelkannons, carry", "EASY, tires, roll, barrelkannons, rambi", "NORMAL, tires, roll, barrelkannons, carry", "NORMAL, tires, roll, barrelkannons, rambi"],
+                "access_rules": ["EASY, $HasTires, $CanRoll, $HasKannons, $CanCarry, $HasRambi","NORMAL, $HasTires, $CanRoll, $HasKannons, $CanCarry","NORMAL, $HasTires, $CanRoll, $HasKannons, $HasRambi","HARD, $HasKannons, $HasTires","HARD, $HasKannons, $HasDiddy, $HasRambi","HARD, $HasKannons, $HasDiddy, $CanRoll"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -67,7 +67,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, climb, carry, barrelkannons", "NORMAL, climb, carry, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $CanCarry, $HasKannons","NORMAL, $CanClimb, $CanCarry, $HasKannons","HARD, $CanCarry, $HasKannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, tires, carry", "NORMAL, tires, carry"],
+                "access_rules": ["EASY, $HasTires, $CanCarry","NORMAL, $HasTires, $CanCarry","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -95,7 +95,7 @@
             },
             {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, tires, carry", "NORMAL, tires, carry"],
+                "access_rules": ["EASY, $HasTires, $CanCarry","NORMAL, $HasTires, $CanCarry","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -115,7 +115,7 @@
             "sections": [
                 {
                 "name": "Bonus #4",
-                "access_rules": ["EASY, tires, carry, barrelkannons", "EASY, tires, rambi, barrelkannons", "NORMAL, tires, rambi, barrelkannons", "NORMAL, tires, carry, barrelkannons", "NORMAL, roll, carry, barrelkannons"],
+                "access_rules": ["EASY, $HasTires, $CanCarry, $HasKannons","EASY, $HasTires, $HasRambi, $HasKannons","NORMAL, $HasTires, $HasRambi, $HasKannons","NORMAL, $HasTires, $CanCarry, $HasKannons","NORMAL, $CanRoll, $CanCarry, $HasKannons","HARD, $HasKannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -135,7 +135,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Above oil drum near O)",
-                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "access_rules": ["EASY, $HasTires, $HasKannons","NORMAL, $HasTires, $HasKannons","HARD, $HasKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -155,7 +155,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Between two Manky Kong)",
-                "access_rules": ["EASY, tires, barrelkannons", "NORMAL, tires, barrelkannons"],
+                "access_rules": ["EASY, $HasTires, $HasKannons","NORMAL, $HasTires, $HasKannons","HARD, $HasKannons"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

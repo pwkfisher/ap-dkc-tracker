@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -29,7 +29,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -68,7 +68,7 @@
             "sections": [
                 {
                 "name": "Red Balloon #1 (In second Croctopus' path)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
                 "chest_opened_img": "images/checks/balloonsanity.png",
                 "visibility_rules": ["balloonsanity"],
@@ -88,7 +88,7 @@
             "sections": [
                 {
                 "name": "Expresso Token (In secret area near two Chomps)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/expresso_disabled.png",
                 "chest_opened_img": "images/checks/expresso.png",
                 "visibility_rules": ["tokensanity"],
@@ -108,7 +108,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Below first Croctopus)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -128,7 +128,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Next to O)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

@@ -8,7 +8,7 @@
             "sections": [
                 {
                 "name": "Clear",
-                "access_rules": [""],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": [],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -67,7 +67,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, rambi", "EASY, carry", "NORMAL, rambi", "NORMAL, carry"],
+                "access_rules": ["EASY, $HasRambi","EASY, $CanCarry","NORMAL, $HasRambi","NORMAL, $CanCarry","HARD, $HasRambi","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, rambi", "EASY, carry", "NORMAL, rambi", "NORMAL, carry"],
+                "access_rules": ["EASY, $HasRambi","EASY, $CanCarry","NORMAL, $HasRambi","NORMAL, $CanCarry","HARD, $HasRambi","HARD, $CanCarry"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Red Balloon #1 (Inside Cabin)",
-                "access_rules": ["EASY, tires", "NORMAL, tires"],
+                "access_rules": ["EASY, $HasTires","NORMAL, $HasTires","HARD, $HasTires"],
                 "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
                 "chest_opened_img": "images/checks/balloonsanity.png",
                 "visibility_rules": ["balloonsanity"],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Red Balloon #2 (After K)",
-                "access_rules": ["EASY, roll", "NORMAL, roll"],
+                "access_rules": ["EASY, $CanRoll","NORMAL, $CanRoll","HARD"],
                 "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
                 "chest_opened_img": "images/checks/balloonsanity.png",
                 "visibility_rules": ["balloonsanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Red Balloon #3 (Above Klumps)",
-                "access_rules": ["EASY, roll, diddy", "NORMAL, roll, diddy"],
+                "access_rules": ["EASY, $CanRoll, $HasDiddy","NORMAL, $CanRoll, $HasDiddy","HARD, $CanRoll, $HasDiddy","HARD, $HasRambi"],
                 "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
                 "chest_opened_img": "images/checks/balloonsanity.png",
                 "visibility_rules": ["balloonsanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Green Balloon #1 (Above Klumps)",
-                "access_rules": ["EASY, roll, diddy", "NORMAL, roll, diddy"],
+                "access_rules": ["EASY, $CanRoll, $HasDiddy","NORMAL, $CanRoll, $HasDiddy","HARD, $CanRoll, $HasDiddy","HARD, $HasRambi"],
                 "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
                 "chest_opened_img": "images/checks/balloonsanity.png",
                 "visibility_rules": ["balloonsanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Blue Balloon #1 (Above exit)",
-                "access_rules": ["EASY, rambi, tires, barrelkannons", "NORMAL, rambi, tires, barrelkannons"],
+                "access_rules": ["EASY, $HasRambi, $HasTires, $HasKannons","NORMAL, $HasRambi, $HasTires","HARD, $HasRambi, $HasTires"],
                 "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
                 "chest_opened_img": "images/checks/balloonsanity.png",
                 "visibility_rules": ["balloonsanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Blue Balloon #2 (Above exit)",
-                "access_rules": ["EASY, rambi, tires, barrelkannons", "NORMAL, rambi, tires, barrelkannons"],
+                "access_rules": ["EASY, $HasRambi, $HasTires, $HasKannons","NORMAL, $HasRambi, $HasTires","HARD, $HasRambi, $HasTires"],
                 "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
                 "chest_opened_img": "images/checks/balloonsanity.png",
                 "visibility_rules": ["balloonsanity"],
@@ -227,7 +227,7 @@
             "sections": [
                 {
                 "name": "Expresso Token (Below Necky)",
-                "access_rules": [""],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/expresso_disabled.png",
                 "chest_opened_img": "images/checks/expresso.png",
                 "visibility_rules": ["tokensanity"],
@@ -247,7 +247,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Cache in palm tree)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -267,7 +267,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Cache in front of hoard)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $HasRambi","NORMAL, $CanSlap","HARD, $HasRambi","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -287,7 +287,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Cache in front of hoard)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $HasRambi","NORMAL, $CanSlap","HARD, $HasRambi","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -307,7 +307,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Above palm tree)",
-                "access_rules": ["EASY, roll", "NORMAL, roll", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanRoll","NORMAL, $HasRambi","NORMAL, $CanRoll","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -327,7 +327,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Cache below K)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $HasRambi","NORMAL, $CanSlap","HARD, $HasRambi","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -347,7 +347,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #6 (Cache in palm tree above K)",
-                "access_rules": ["EASY, $slap, roll", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap, $CanRoll","NORMAL, $CanSlap","HARD, $CanSlap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -367,7 +367,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #7 (Cache in palm tree next to red balloon)",
-                "access_rules": ["EASY, $slap, roll", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap, $CanRoll","NORMAL, $CanSlap","HARD, $CanSlap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -387,7 +387,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #8 (Cache in ledge with Kritter)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $HasRambi","NORMAL, $CanSlap","HARD, $HasRambi","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -407,7 +407,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #9 (Cache below ledge with Kritter)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -427,7 +427,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #10 (Cache in ledge with Kritter)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $HasRambi","NORMAL, $CanSlap","HARD, $HasRambi","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -447,7 +447,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #11 (Cache below ledge with Kritter)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -467,7 +467,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #12 (Between Kritters)",
-                "access_rules": [""],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -487,7 +487,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #13 (Cache in palm tree below red balloon)",
-                "access_rules": ["EASY, $slap, roll, diddy", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanRoll, $CanSlap, $HasDiddy","NORMAL, $CanRoll, $CanSlap","HARD, $CanRoll, $CanSlap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -507,7 +507,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #14 (Cache above Expresso token)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -527,7 +527,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #15 (Cache below G)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $HasRambi","NORMAL, $CanSlap","HARD, $HasRambi","HARD, $CanSlap"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -547,7 +547,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #16 (Above pit)",
-                "access_rules": [""],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -567,7 +567,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #17 (Cache before exit)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $HasRambi","NORMAL, $CanSlap","HARD, $HasRambi","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -587,7 +587,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #18 (Cache before exit)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap", "NORMAL, rambi"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $HasRambi","NORMAL, $CanSlap","HARD, $HasRambi","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -607,7 +607,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #19 (In palm tree before exit)",
-                "access_rules": [""],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

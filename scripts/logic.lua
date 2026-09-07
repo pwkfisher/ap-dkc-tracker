@@ -1,11 +1,3 @@
-function slap()
-    return has("gorillaslap") and has("donkey")
-end
-
-function bothkongs()
-    return has("diddy") and has("donkey")
-end
-
 function finalbossaccess()
     local neededtokens = Tracker:FindObjectForCode("bigbananasrequired").AcquiredCount
     local currenttokens = Tracker:FindObjectForCode("bigbanana").AcquiredCount
@@ -285,6 +277,83 @@ function check_clears(section)
         end
     end
 end
+
+function HasDonkey()
+    return has("donkey")
+end
+
+function HasDiddy()
+    return has("diddy")
+end
+
+function HasBothKongs()
+    return has("donkey") and has("diddy")
+end
+
+function CanCarry()
+    return has("carry")
+end
+
+function CanClimb()
+    return has("climb")
+end
+
+function CanRoll()
+    return has("roll")
+end
+
+function CanSwim()
+    return has("swim")
+end
+
+function CanSlap()
+    return has("gorillaslap") and has("donkey")
+end
+
+function CanCarry()
+    return has("carry")
+end
+
+function HasRambi()
+    return has("rambi")
+end
+
+function HasSquawks()
+    return has("squawks")
+end
+
+function HasEnguarge()
+    return has("enguarde")
+end
+
+function HasWinky()
+    return has("winky")
+end
+
+function HasExpresso()
+    return has("expresso")
+end
+
+function HasKannons()
+    return has("barrelkannons")
+end
+
+function HasSwitches()
+    return has("switchbarrels")
+end
+
+function HasMinecart()
+    return has("minecraft")
+end
+
+function HasTires()
+    return has("tires")
+end
+
+function HasPlatforms()
+    return has("barrelkannons")
+end
+
 
 
 ScriptHost:AddOnLocationSectionChangedHandler("location_check",check_clears)

@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": [""],
+                "access_rules": ["EASY","NORMAL","HARD"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, barrelkannons, winky", "NORMAL, barrelkannons"],
+                "access_rules": ["EASY, $HasKannons, $HasWinky","NORMAL, $HasKannons","HARD, $HasKannons"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -67,7 +67,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, barrelkannons", "NORMAL, barrelkannons"],
+                "access_rules": ["EASY, $HasKannons","NORMAL, $HasKannons","HARD, $HasKannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Expresso Token",
-                "access_rules": ["EASY, winky", "NORMAL, winky"],
+                "access_rules": ["EASY, $HasWinky","NORMAL, $HasWinky","HARD, $HasWinky","HARD, $HasDonkey","HARD, $HasBothKongs"],
                 "chest_unopened_img": "images/checks/expresso_disabled.png",
                 "chest_opened_img": "images/checks/expresso.png",
                 "visibility_rules": ["tokensanity"],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Cache in slope near start)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Cache below Winky crate)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Cache below continue barrel)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Cache in platform near Expresso token)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap","HARD, $HasDiddy, $HasWinky"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Cache after final Mini-Drum)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap","HARD, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

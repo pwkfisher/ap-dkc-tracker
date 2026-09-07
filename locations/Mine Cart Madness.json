@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, minecart, tires", "NORMAL, minecart, tires"],
+                "access_rules": ["EASY, $HasMinecart","NORMAL, $HasMinecart","HARD, $HasMinecart"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, minecart, tires", "NORMAL, minecart, tires"],
+                "access_rules": ["EASY, $HasMinecart, $HasTires","NORMAL, $HasMinecart, $HasTires","NORMAL, $HasMinecart, $HasDonkey","HARD, $HasMinecart, $HasTires","HARD, $HasMinecart, $HasDonkey"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -67,7 +67,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, minecart, tires, barrelkannons", "NORMAL, minecart, tires, barrelkannons"],
+                "access_rules": ["EASY, $HasMinecart, $CanClimb, $HasKannons","NORMAL, $HasMinecart, $CanClimb, $HasKannons","HARD, $HasMinecart, $CanClimb, $HasKannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, minecart, tires, barrelkannons", "NORMAL, minecart, tires, barrelkannons"],
+                "access_rules": ["EASY, $HasMinecart, $HasTires, $HasKannons","NORMAL, $HasMinecart, $HasTires, $HasKannons","HARD, $HasMinecart, $HasTires, $HasKannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Bonus #3",
-                "access_rules": ["EASY, minecart, tires, barrelkannons", "NORMAL, minecart, tires, barrelkannons"],
+                "access_rules": ["EASY, $HasMinecart, $HasTires, $HasKannons","NORMAL, $HasMinecart, $HasTires, $HasKannons","HARD, $HasMinecart, $HasTires, $HasKannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Enguarde Token",
-                "access_rules": ["EASY, minecart", "NORMAL, minecart"],
+                "access_rules": ["EASY, $HasMinecart","NORMAL, $HasMinecart","HARD, $HasMinecart"],
                 "chest_unopened_img": "images/checks/enguarde_disabled.png",
                 "chest_opened_img": "images/checks/enguarde.png",
                 "visibility_rules": ["tokensanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (In minecart section)",
-                "access_rules": ["EASY, minecart, tires", "NORMAL, minecart, tires"],
+                "access_rules": ["EASY, $HasMinecart","NORMAL, $HasMinecart","HARD, $HasMinecart"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

@@ -6,7 +6,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, donkey, diddy", "NORMAL, diddy, roll", "NORMAL, donkey"],
+                "access_rules": ["EASY, $HasBothKongs","NORMAL, $HasDiddy, $CanRoll","NORMAL, $HasDonkey","HARD, $HasDiddy, $CanRoll","HARD, $HasDonkey"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -14,7 +14,7 @@
             },
             {
                 "name": "Defeat Dumb Drum",
-                "access_rules": ["EASY, donkey, diddy", "NORMAL, diddy, roll", "NORMAL, donkey"],
+                "access_rules": ["EASY, $HasBothKongs","NORMAL, $HasDiddy, $CanRoll","NORMAL, $HasDonkey","HARD, $HasDiddy, $CanRoll","HARD, $HasDonkey"],
                 "chest_unopened_img": "images/checks/bossbanana_disabled.png",
                 "chest_opened_img": "images/checks/bossbanana.png",
                 "visibility_rules": [],

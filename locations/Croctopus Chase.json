@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -67,7 +67,7 @@
             "sections": [
                 {
                 "name": "Red Balloon #1 (Near Enguarde crate)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/balloonsanity_disabled.png",
                 "chest_opened_img": "images/checks/balloonsanity.png",
                 "visibility_rules": ["balloonsanity"],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Winky Token",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/winky_disabled.png",
                 "chest_opened_img": "images/checks/winky.png",
                 "visibility_rules": ["tokensanity"],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Enguarde Token",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/enguarde_disabled.png",
                 "chest_opened_img": "images/checks/enguarde.png",
                 "visibility_rules": ["tokensanity"],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Before K)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Next to Enguarde token)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -167,7 +167,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Next to Enguarde token)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -187,7 +187,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #4 (Next to Enguarde token)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -207,7 +207,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #5 (Next to Enguarde token)",
-                "access_rules": ["EASY, swim", "NORMAL, swim"],
+                "access_rules": ["EASY, $CanSwim","NORMAL, $CanSwim","HARD, $CanSwim"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],

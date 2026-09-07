@@ -8,7 +8,7 @@
         "sections": [
             {
                 "name": "Clear",
-                "access_rules": ["EASY, climb, barrelkannons", "EASY, expresso", "NORMAL, climb, barrelkannons", "NORMAL, expresso"],
+                "access_rules": ["EASY, $CanClimb, $HasKannons","EASY, $HasExpresso","NORMAL, $CanClimb, $HasKannons","NORMAL, $HasExpresso","HARD, $CanClimb, $HasKannons","HARD, $HasExpresso"],
                 "chest_unopened_img": "images/checks/clear_disabled.png",
                 "chest_opened_img": "images/checks/clear.png",
                 "visibility_rules": [],
@@ -28,7 +28,7 @@
             "sections": [
                 {
                 "name": "KONG",
-                "access_rules": ["EASY, roll, expresso", "NORMAL, roll, expresso"],
+                "access_rules": ["EASY, $CanRoll, $HasExpresso","NORMAL, $CanRoll, $HasExpresso","HARD, $HasExpresso"],
                 "chest_unopened_img": "images/checks/kong_disabled.png",
                 "chest_opened_img": "images/checks/kong.png",
                 "visibility_rules": ["kongchecks"],
@@ -67,7 +67,7 @@
             "sections": [
                 {
                 "name": "Bonus #1",
-                "access_rules": ["EASY, climb, barrelkannons", "NORMAL, climb, barrelkannons", "NORMAL, expresso, barrelkannons"],
+                "access_rules": ["EASY, $CanClimb, $HasKannons","NORMAL, $CanClimb, $HasKannons","NORMAL, $HasExpresso, $HasKannons","HARD, $CanClimb, $HasKannons","HARD, $HasExpresso, $HasKannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -87,7 +87,7 @@
             "sections": [
                 {
                 "name": "Bonus #2",
-                "access_rules": ["EASY, expresso, barrelkannons", "NORMAL, expresso, barrelkannons"],
+                "access_rules": ["EASY, $HasExpresso, $HasKannons","NORMAL, $HasExpresso, $HasKannons","HARD, $HasExpresso, $HasKannons"],
                 "chest_unopened_img": "images/checks/bonus_disabled.png",
                 "chest_opened_img": "images/checks/bonus.png",
                 "visibility_rules": [],
@@ -107,7 +107,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #1 (Cache after initial slope)",
-                "access_rules": ["EASY, $slap", "NORMAL, $slap"],
+                "access_rules": ["EASY, $CanSlap","NORMAL, $CanSlap","HARD, $CanSlap","HARD, $HasExpresso, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -127,7 +127,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #2 (Cache next to Manky Kong)",
-                "access_rules": ["EASY, climb, barrelkannons, $slap", "EASY, expresso, $slap", "NORMAL, climb, barrelkannons, $slap", "NORMAL, expresso, $slap"],
+                "access_rules": ["EASY, $CanClimb, $HasKannons, $CanSlap","EASY, $HasExpresso, $CanSlap","NORMAL, $CanClimb, $HasKannons, $CanSlap","NORMAL, $HasExpresso, $CanSlap","HARD, $CanClimb, $HasKannons, $CanSlap","HARD, $CanClimb, $HasKannons, $HasDiddy","HARD, $HasExpresso, $CanSlap","HARD, $HasExpresso, $HasDiddy"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
@@ -147,7 +147,7 @@
             "sections": [
                 {
                 "name": "Banana Bunch #3 (Before exit)",
-                "access_rules": ["EASY, climb, barrelkannons", "EASY, expresso", "NORMAL, climb, barrelkannons", "NORMAL, expresso"],
+                "access_rules": ["EASY, $CanClimb, $HasKannons, $CanRoll","EASY, $HasExpresso, $CanRoll","NORMAL, $CanClimb, $HasKannons","NORMAL, $HasExpresso","HARD, $CanClimb, $HasKannons","HARD, $HasExpresso"],
                 "chest_unopened_img": "images/checks/bananabunch_disabled.png",
                 "chest_opened_img": "images/checks/bananabunch.png",
                 "visibility_rules": ["bananasanity"],
