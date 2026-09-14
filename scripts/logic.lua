@@ -343,7 +343,7 @@ function HasSwitches()
 end
 
 function HasMinecart()
-    return has("minecraft")
+    return has("minecart")
 end
 
 function HasTires()
@@ -351,7 +351,7 @@ function HasTires()
 end
 
 function HasPlatforms()
-    return has("barrelkannons")
+    return has("platforms")
 end
 
 
