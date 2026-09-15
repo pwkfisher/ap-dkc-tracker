@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.1a",
+			"download_url": "https://github.com/pwkfisher/ap-dkc-tracker/releases/download/1.1.1a/ap-dkc-tracker-1.1.1a.zip",
+			"sha256": "a2e2326c6d70f72cb3810ab1c1765521410ad33f41d4e83c9fcb47ee64b67d43",
+			"changelog": ["Logic fix for Enguarde."]
+		},
+		{
 			"package_version": "1.1.1",
 			"download_url": "https://github.com/pwkfisher/ap-dkc-tracker/releases/download/1.1.1/ap-dkc-tracker-1.1.1.zip",
 			"sha256": "11a4f0aef1d3ace8b60efe9424c7e6333d6347a417daf9759d9d9aa24b43b120",
